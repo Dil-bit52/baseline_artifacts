@@ -1,0 +1,11 @@
+{
+  "all_values_finite": true,
+  "end_stamp": 1658138372.0226145,
+  "message_count": 13334,
+  "path_length_m": 4922.022912460241,
+  "quaternion_norm_max": 0.9999999999999947,
+  "quaternion_norm_min": 0.9999999999986094,
+  "start_stamp": 1658137038.7248368,
+  "timestamps_strictly_increasing": true,
+  "topic": "/Odometry"
+}

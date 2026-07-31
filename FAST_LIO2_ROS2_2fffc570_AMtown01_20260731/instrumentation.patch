@@ -1,0 +1,164 @@
+diff --git a/src/laserMapping.cpp b/src/laserMapping.cpp
+index d441261..a82721b 100644
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -39,6 +39,8 @@
+ #include <fstream>
+ #include <csignal>
+ #include <chrono>
++#include <cstdlib>
++#include <iomanip>
+ #include <unistd.h>
+ #include <Python.h>
+ #include <so3_math.h>
+@@ -107,6 +109,8 @@ vector<double>       extrinR(9, 0.0);
+ deque<double>                     time_buffer;
+ deque<PointCloudXYZI::Ptr>        lidar_buffer;
+ deque<sensor_msgs::msg::Imu::ConstSharedPtr> imu_buffer;
++deque<size_t>                     lidar_raw_count_buffer;
++size_t                            current_scan_points_raw = 0;
+ 
+ PointCloudXYZI::Ptr featsFromMap(new PointCloudXYZI());
+ PointCloudXYZI::Ptr feats_undistort(new PointCloudXYZI());
+@@ -290,6 +294,7 @@ void standard_pcl_cbk(const sensor_msgs::msg::PointCloud2::UniquePtr msg)
+     {
+         std::cerr << "lidar loop back, clear buffer" << std::endl;
+         lidar_buffer.clear();
++        lidar_raw_count_buffer.clear();
+     }
+     if (is_first_lidar)
+     {
+@@ -299,6 +304,7 @@ void standard_pcl_cbk(const sensor_msgs::msg::PointCloud2::UniquePtr msg)
+     PointCloudXYZI::Ptr  ptr(new PointCloudXYZI());
+     p_pre->process(msg, ptr);
+     lidar_buffer.push_back(ptr);
++    lidar_raw_count_buffer.push_back(static_cast<size_t>(msg->width) * msg->height);
+     time_buffer.push_back(cur_time);
+     last_timestamp_lidar = cur_time;
+     s_plot11[scan_count] = omp_get_wtime() - preprocess_start_time;
+@@ -318,6 +324,7 @@ void livox_pcl_cbk(const livox_ros_driver2::msg::CustomMsg::UniquePtr msg)
+     {
+         std::cerr << "lidar loop back, clear buffer" << std::endl;
+         lidar_buffer.clear();
++        lidar_raw_count_buffer.clear();
+     }
+     if(is_first_lidar)
+     {
+@@ -340,6 +347,7 @@ void livox_pcl_cbk(const livox_ros_driver2::msg::CustomMsg::UniquePtr msg)
+     PointCloudXYZI::Ptr  ptr(new PointCloudXYZI());
+     p_pre->process(msg, ptr);
+     lidar_buffer.push_back(ptr);
++    lidar_raw_count_buffer.push_back(msg->point_num);
+     time_buffer.push_back(last_timestamp_lidar);
+     
+     s_plot11[scan_count] = omp_get_wtime() - preprocess_start_time;
+@@ -390,6 +398,7 @@ bool sync_packages(MeasureGroup &meas)
+     if(!lidar_pushed)
+     {
+         meas.lidar = lidar_buffer.front();
++        current_scan_points_raw = lidar_raw_count_buffer.front();
+         meas.lidar_beg_time = time_buffer.front();
+         if (meas.lidar->points.size() <= 1) // time too little
+         {
+@@ -429,6 +438,7 @@ bool sync_packages(MeasureGroup &meas)
+     }
+ 
+     lidar_buffer.pop_front();
++    lidar_raw_count_buffer.pop_front();
+     time_buffer.pop_front();
+     lidar_pushed = false;
+     return true;
+@@ -944,17 +954,73 @@ public:
+ 
+         map_save_srv_ = this->create_service<std_srvs::srv::Trigger>("map_save", std::bind(&LaserMappingNode::map_save_callback, this, std::placeholders::_1, std::placeholders::_2));
+ 
++        const char *metrics_path = std::getenv("FASTLIO_METRICS_CSV");
++        if (metrics_path != nullptr && metrics_path[0] != '\0')
++        {
++            metrics_stream_.open(metrics_path, std::ios::out | std::ios::trunc);
++            if (metrics_stream_)
++            {
++                metrics_stream_ << "timestamp_sensor,timestamp_wall_utc,frame_index,kdtree_size_before,kdtree_size_after,points_added,points_deleted,scan_points_raw,scan_points_downsampled,effective_feature_points,nearest_search_ms,scan_match_ms,ekf_update_ms,map_insert_ms,map_delete_ms,map_update_ms,total_frame_ms,lidar_buffer_size,imu_buffer_size\n";
++                metrics_enabled_ = true;
++            }
++            else
++            {
++                RCLCPP_WARN(this->get_logger(), "Cannot open FAST-LIO metrics CSV: %s", metrics_path);
++            }
++        }
++
+         RCLCPP_INFO(this->get_logger(), "Node init finished.");
+     }
+ 
+     ~LaserMappingNode()
+     {
++        if (metrics_stream_.is_open())
++        {
++            metrics_stream_.flush();
++            metrics_stream_.close();
++        }
+         fout_out.close();
+         fout_pre.close();
+         fclose(fp);
+     }
+ 
+ private:
++    void write_frame_metrics(double t0, double t_update_start, double t_update_end,
++                             double t3, double t5)
++    {
++        if (!metrics_enabled_)
++        {
++            return;
++        }
++        const double wall_utc = std::chrono::duration<double>(
++            std::chrono::system_clock::now().time_since_epoch()).count();
++        ++metrics_frame_index_;
++        metrics_stream_ << std::fixed << std::setprecision(9)
++                        << Measures.lidar_beg_time << ','
++                        << wall_utc << ','
++                        << metrics_frame_index_ << ','
++                        << kdtree_size_st << ','
++                        << kdtree_size_end << ','
++                        << add_point_size << ','
++                        << kdtree_delete_counter << ','
++                        << current_scan_points_raw << ','
++                        << feats_down_size << ','
++                        << effct_feat_num << ','
++                        << kdtree_search_time * 1000.0 << ','
++                        << match_time * 1000.0 << ','
++                        << (t_update_end - t_update_start) * 1000.0 << ','
++                        << kdtree_incremental_time * 1000.0 << ','
++                        << kdtree_delete_time * 1000.0 << ','
++                        << (kdtree_incremental_time + kdtree_delete_time) * 1000.0 << ','
++                        << (t5 - t0) * 1000.0 << ','
++                        << lidar_buffer.size() << ','
++                        << imu_buffer.size() << '\n';
++        if (metrics_frame_index_ % 100 == 0)
++        {
++            metrics_stream_.flush();
++        }
++    }
++
+     void timer_callback()
+     {
+         if(sync_packages(Measures))
+@@ -1067,6 +1133,8 @@ private:
+             t3 = omp_get_wtime();
+             map_incremental();
+             t5 = omp_get_wtime();
++            kdtree_size_end = ikdtree.size();
++            write_frame_metrics(t0, t_update_start, t_update_end, t3, t5);
+             
+             /******* Publish points *******/
+             if (path_en)                         publish_path(pubPath_);
+@@ -1144,6 +1212,10 @@ private:
+     rclcpp::TimerBase::SharedPtr map_pub_timer_;
+     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr map_save_srv_;
+ 
++    std::ofstream metrics_stream_;
++    bool metrics_enabled_ = false;
++    uint64_t metrics_frame_index_ = 0;
++
+     bool effect_pub_en = false, map_pub_en = false;
+     int effect_feat_num = 0, frame_num = 0;
+     double deltaT, deltaR, aver_time_consu = 0, aver_time_icp = 0, aver_time_match = 0, aver_time_incre = 0, aver_time_solve = 0, aver_time_const_H_time = 0;

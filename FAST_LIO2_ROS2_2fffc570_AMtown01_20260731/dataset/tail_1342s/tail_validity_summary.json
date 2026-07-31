@@ -1,0 +1,9 @@
+{
+  "approx_filtered_points_max": 23999,
+  "approx_filtered_points_min": 0,
+  "first_stamp": 1658138369.4248266,
+  "frames": 96,
+  "frames_with_fewer_than_5_approx_filtered_points": 70,
+  "frames_with_zero_approx_filtered_points": 69,
+  "last_stamp": 1658138381.7247367
+}

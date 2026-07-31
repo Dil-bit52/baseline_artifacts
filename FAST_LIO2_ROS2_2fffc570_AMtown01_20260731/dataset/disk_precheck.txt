@@ -1,0 +1,4 @@
+source_bytes=33009261173
+free_before_bytes=982756192256
+predicted_free_after_copy_bytes=949746931083
+minimum_free_after_bytes=32212254720

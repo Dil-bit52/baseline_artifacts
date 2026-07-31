@@ -1,0 +1,8 @@
+commit 6d82e211f250a8b97c71eb8112d98e3ec29770ae (HEAD -> experiment/baseline-instrumentation)
+Author: FAST-LIO Baseline <baseline@local.invalid>
+Date:   Fri Jul 31 06:51:11 2026 +0000
+
+    chore: add non-invasive FAST-LIO2 baseline instrumentation
+
+ src/laserMapping.cpp | 72 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 72 insertions(+)

@@ -1,0 +1,153 @@
+{
+  "baseline_id": "FAST_LIO2_ROS2_2fffc570_AMtown01_20260731",
+  "created_utc": "2026-07-31T13:54:55.029802+00:00",
+  "host": "Windows host with Docker Desktop; sensitive host details retained only in private/",
+  "container": {
+    "id": "dc3ae6023b26be72f110849f9b0edca845434847ed9fd5ef01a77c6a2d6cb8e4",
+    "image_id": "sha256:327fe46ebc7cfbc19cdc68a6282169b83a06f0971b53262f63d5484658ad490b",
+    "repo_digest": "osrf/ros@sha256:327fe46ebc7cfbc19cdc68a6282169b83a06f0971b53262f63d5484658ad490b",
+    "os": "Ubuntu 22.04.5 LTS",
+    "cpu_visible": 20,
+    "memory_visible": "7.6 GiB"
+  },
+  "ros": {
+    "distribution": "Humble",
+    "version": 2,
+    "rmw": "rmw_fastrtps_cpp (doctor; env unset)"
+  },
+  "compiler": {
+    "gcc": "11.4.0",
+    "cmake": "3.22.1",
+    "python": "3.10.12"
+  },
+  "workspaces": {
+    "host_archive": "/workspace/baseline_artifacts/FAST_LIO2_ROS2_2fffc570_AMtown01_20260731",
+    "linux_high_performance_root": "/data/fastlio_baseline"
+  },
+  "source": {
+    "repository": "Ericsii/FAST_LIO_ROS2",
+    "branch": "ros2",
+    "b0_commit": "2fffc570a25d0df172720bac034fbdb6a13d2162",
+    "b1_commit": "6d82e211f250a8b97c71eb8112d98e3ec29770ae",
+    "ikd_tree_commit": "e2e3f4e9d3b95a9e66b1ba83dc98d4a05ed8a3c4",
+    "livox_ros_driver2_commit": "13eb05e4e6dd7a765b934d0c5fd6236676a57b49",
+    "livox_sdk2_commit": "22d98dcd4672953fbc96d6bc9f1be7a1c0cfef9e",
+    "original_worktrees_modified": true,
+    "original_state_preserved_under": "private/source_state",
+    "b0_snapshot_clean": true,
+    "instrumentation_patch": "instrumentation.patch",
+    "instrumentation_patch_sha256": "a7bef3a0c2eb9a0b02c2bde85634936f953e27f73247e490d2b931d340ebe709"
+  },
+  "binaries": {
+    "b0_path": "build/b0/fastlio_mapping",
+    "b0_sha256": "6e2c9cd2a4df33f5dd1f5c7a0f0e357ffcd43a05fe93ffb08a6cc4c705c757d5",
+    "b1_path": "build/b1/fastlio_mapping",
+    "b1_sha256": "d44ba02343650522f112764435d6e5f398456a22254a7363c691a12597adc10d"
+  },
+  "config_sha256": {
+    "baseline_map_export.yaml": "0157f78db55e980e1c29984a14fd7b8c7bafc1d23887fe614939d17b2607f0a6",
+    "baseline_performance.yaml": "456ffa965daf6b2c0402bf2c8bac3f6e1fdb1167eb3f363a0d8d5a407599b051",
+    "baseline_smoke.yaml": "1e8d1ebb81280771cb4bf2c14c8a7c9900daad88d968156d752c7c35fe627179",
+    "baseline_visualization.yaml": "05c65dde80161e4aa8d63104b4a61efe1e70d6b0ed0694f036dc82d4bf6694d5"
+  },
+  "dataset": {
+    "name": "AMtown01_driver2",
+    "status": "local derived driver2 conversion of public MARS-LVIG AMtown01; conversion history unavailable",
+    "staged_path": "/data/fastlio_baseline/datasets/AMtown01_driver2",
+    "duration_sec": 1354.388754976,
+    "mcap_bytes": 33009250404,
+    "mcap_sha256": "6f3c85f54982d88d1dd2707815922e5a77fa7d64a787a608ac43d6a70f819586",
+    "metadata_sha256": "b18d1f4b33e6c16d53f5192da78207930907e4efe4d19b0cd65609bffe40ece0",
+    "lidar_messages": 13543,
+    "imu_messages": 281894,
+    "ground_truth": "N/A: no frozen GT/alignment protocol"
+  },
+  "commands": {
+    "build": "colcon --log-base log build --base-paths src --build-base build --install-base install --packages-up-to fast_lio --event-handlers console_direct+ --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DROS_EDITION=ROS2 -DDISTRO_ROS=humble",
+    "launch": "ros2 launch fast_lio mapping.launch.py config_path:=<run_dir> config_file:=config.yaml use_sim_time:=true rviz:=false",
+    "play": "ros2 bag play /data/fastlio_baseline/datasets/AMtown01_driver2 --clock --rate 1.0 --delay 5 --topics /livox/lidar /livox/imu",
+    "ros_domain_id": 47
+  },
+  "formal_runs": [
+    {
+      "run_id": "performance_01",
+      "exit_codes": {
+        "bag_play": "0",
+        "bag_record": "0",
+        "latency_monitor": "0",
+        "process_monitor": "0",
+        "launch": "0",
+        "drain": "0",
+        "map_save": "N/A"
+      },
+      "result_path": "runs/performance_01"
+    },
+    {
+      "run_id": "performance_02",
+      "exit_codes": {
+        "bag_play": "0",
+        "bag_record": "0",
+        "latency_monitor": "0",
+        "process_monitor": "0",
+        "launch": "0",
+        "drain": "0",
+        "map_save": "N/A"
+      },
+      "result_path": "runs/performance_02"
+    },
+    {
+      "run_id": "performance_03",
+      "exit_codes": {
+        "bag_play": "0",
+        "bag_record": "0",
+        "latency_monitor": "0",
+        "process_monitor": "0",
+        "launch": "0",
+        "drain": "0",
+        "map_save": "N/A"
+      },
+      "result_path": "runs/performance_03"
+    }
+  ],
+  "other_runs": [
+    "b0_smoke_01",
+    "b0_full_01",
+    "equivalence_simultaneous_01",
+    "equivalence_simultaneous_02",
+    "equivalence_simultaneous_03",
+    "warmup_01",
+    "map_export_01",
+    "visualization_01"
+  ],
+  "equivalence": {
+    "accepted_audit": "runs/equivalence_simultaneous_03/equivalence.json",
+    "conditions": "same player, 0.1x, delay 5 s, OMP_THREAD_LIMIT=1",
+    "max_position_difference_m": 0.0,
+    "max_rotation_difference_deg": 0.0,
+    "scope_limit": "default multi-thread trials were nondeterministic and are retained"
+  },
+  "maps": {
+    "b0": {
+      "path": "runs/b0_full_01/registered_scan_aggregation.pcd",
+      "points": 8602360,
+      "sha256": "882f2131d9c6235b213653200f4304aaef765da9c9b2c157eaa1f459bc52b9e4"
+    },
+    "b1": {
+      "path": "runs/map_export_01/registered_scan_aggregation.pcd",
+      "points": 8590275,
+      "sha256": "b2fe3fdcece1f4291f006e6cdd06dfd70d888907e4531085963126b720859dbe"
+    },
+    "semantics": "registered-scan aggregation, not a direct dump of every internal ikd-tree node"
+  },
+  "reports": {
+    "experiment_report": "report/FAST_LIO2_ROS2_baseline_report.md",
+    "ppt_page": "report/ppt_page_baseline.md",
+    "ppt_tables": [
+      "report/ppt_tables.md",
+      "report/ppt_tables.csv"
+    ],
+    "analysis_workbook": "analysis/FAST_LIO2_baseline_results.xlsx"
+  },
+  "essential_hash_list": "manifest/essential_artifacts_sha256.txt",
+  "sensitive_data_policy": "private/ is local-only; publish public_redacted/ only"
+}

@@ -1,0 +1,22 @@
+﻿{
+    "captured_utc":  "2026-07-31T13:35:47.3314300Z",
+    "container_id_short":  "dc3ae6023b26",
+    "container_status":  "running",
+    "container_created":  "2026-04-24T04:02:33.710706386Z",
+    "image_id":  "sha256:327fe46ebc7cfbc19cdc68a6282169b83a06f0971b53262f63d5484658ad490b",
+    "image_repo_digests":  "[\"osrf/ros@sha256:327fe46ebc7cfbc19cdc68a6282169b83a06f0971b53262f63d5484658ad490b\"]",
+    "mounts":  [
+                   {
+                       "type":  "bind",
+                       "destination":  "/workspace",
+                       "rw":  true,
+                       "propagation":  "rprivate"
+                   }
+               ],
+    "working_dir":  "/workspace",
+    "network_mode":  "bridge",
+    "memory_limit_bytes":  "0",
+    "nano_cpus":  "0",
+    "runtime":  "runc",
+    "display_configured":  true
+}

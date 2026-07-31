@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "checks": {
+    "baseline_id_matches": true,
+    "essential_hash_count": 488,
+    "essential_hash_failures": [],
+    "git_bundle_count": 5,
+    "git_bundle_failures": [],
+    "formal_run_failures": [],
+    "public_privacy_failures": [],
+    "png_count": 12,
+    "pdf_count": 12,
+    "xlsx_exists": true,
+    "report_exists": true,
+    "b0_binary_matches_manifest": true,
+    "b1_binary_matches_manifest": true,
+    "b0_map_matches_manifest": true,
+    "b1_map_matches_manifest": true
+  }
+}

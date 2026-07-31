@@ -1,0 +1,1 @@
+	liblivox_lidar_sdk_shared.so (libc6,x86-64) => /usr/local/lib/liblivox_lidar_sdk_shared.so

@@ -1,0 +1,7 @@
+bag_play=124
+bag_record=0
+latency_monitor=0
+process_monitor=0
+launch=0
+drain=0
+map_save=N/A

@@ -1,0 +1,41 @@
+
+Files:             AMtown01_driver2_0.mcap
+Bag size:          30.7 GiB
+Storage id:        mcap
+Duration:          1354.388754976s
+Start:             Jul 18 2022 09:37:07.611225763 (1658137027.611225763)
+End:               Jul 18 2022 09:59:41.999980739 (1658138381.999980739)
+Messages:          2168650
+Topic information: Topic: /dji_osdk_ros/acceleration_ground_fused | Type: geometry_msgs/msg/Vector3Stamped | Count: 135445 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/angular_velocity_fused | Type: geometry_msgs/msg/Vector3Stamped | Count: 135445 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/attitude | Type: geometry_msgs/msg/QuaternionStamped | Count: 135445 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/battery_state | Type: sensor_msgs/msg/BatteryState | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/display_mode | Type: std_msgs/msg/UInt8 | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/flight_anomaly | Type: dji_osdk_ros/msg/FlightAnomaly | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/flight_status | Type: std_msgs/msg/UInt8 | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/gimbal_angle | Type: geometry_msgs/msg/Vector3Stamped | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/gps_health | Type: std_msgs/msg/UInt8 | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/gps_position | Type: sensor_msgs/msg/NavSatFix | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/gps_velocity | Type: geometry_msgs/msg/Vector3Stamped | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/gps_velocity_cov | Type: geometry_msgs/msg/Vector3Stamped | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/height_above_takeoff | Type: std_msgs/msg/Float32 | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/imu | Type: sensor_msgs/msg/Imu | Count: 541778 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/local_position | Type: geometry_msgs/msg/PointStamped | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rc | Type: sensor_msgs/msg/Joy | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rc_connection_status | Type: std_msgs/msg/UInt8 | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_connection_status | Type: std_msgs/msg/UInt8 | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_info_position | Type: std_msgs/msg/UInt8 | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_info_yaw | Type: std_msgs/msg/UInt8 | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_position | Type: sensor_msgs/msg/NavSatFix | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_velocity | Type: geometry_msgs/msg/Vector3Stamped | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/rtk_yaw | Type: std_msgs/msg/Int16 | Count: 6773 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/time_sync_fc_time_utc | Type: dji_osdk_ros/msg/FCTimeInUTC | Count: 1354 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/time_sync_gps_utc | Type: dji_osdk_ros/msg/GPSUTC | Count: 1355 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/time_sync_nmea_msg | Type: nmea_msgs/msg/Sentence | Count: 33860 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/time_sync_pps_source | Type: std_msgs/msg/String | Count: 1354 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/velocity | Type: geometry_msgs/msg/Vector3Stamped | Count: 67723 | Serialization Format: cdr
+                   Topic: /dji_osdk_ros/vo_position | Type: dji_osdk_ros/msg/VOPosition | Count: 67723 | Serialization Format: cdr
+                   Topic: /left_camera/image/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 13544 | Serialization Format: cdr
+                   Topic: /livox/imu | Type: sensor_msgs/msg/Imu | Count: 281894 | Serialization Format: cdr
+                   Topic: /livox/lidar | Type: livox_ros_driver2/msg/CustomMsg | Count: 13543 | Serialization Format: cdr
+

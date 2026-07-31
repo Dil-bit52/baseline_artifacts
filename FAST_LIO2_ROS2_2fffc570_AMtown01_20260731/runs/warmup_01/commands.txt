@@ -1,0 +1,6 @@
+variant=b1
+run_id=warmup_01
+ROS_DOMAIN_ID=47
+launch=ros2 launch fast_lio mapping.launch.py config_path:=/data/fastlio_baseline/runs/warmup_01 config_file:=config.yaml use_sim_time:=true rviz:=false
+play=ros2 bag play /data/fastlio_baseline/datasets/AMtown01_driver2 --clock --rate 1.0 --delay 5 --topics /livox/lidar /livox/imu
+record=ros2 bag record --storage mcap -o /data/fastlio_baseline/runs/warmup_01/estimated_odometry /Odometry /tf /tf_static

@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "all_later_tail_frames_below_five_points": true,
+  "last_odometry_stamp": 1658138372.0226145,
+  "last_usable_lidar_stamp": 1658138371.9247339,
+  "raw_drain_exit_code": 2,
+  "raw_drain_timeout_preserved": true,
+  "reason": "bag tail after the last odometry contains only scans with fewer than five approximate usable points",
+  "tail_frames_after_last_usable": 70
+}

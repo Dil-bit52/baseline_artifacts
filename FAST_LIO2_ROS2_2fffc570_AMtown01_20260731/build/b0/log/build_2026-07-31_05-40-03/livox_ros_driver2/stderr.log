@@ -1,0 +1,6 @@
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+/data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2/LIVOX_INTERFACES_INCLUDE_DIRECTORIES
+   used as include directory in directory /data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,1 @@
+882f2131d9c6235b213653200f4304aaef765da9c9b2c157eaa1f459bc52b9e4  /data/fastlio_baseline/runs/b0_full_01/registered_scan_aggregation.pcd

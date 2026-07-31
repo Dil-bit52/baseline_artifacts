@@ -1,0 +1,6 @@
+build_exit_code=0
+binary=/data/fastlio_baseline/workspaces/b1/install/fast_lio/lib/fast_lio/fastlio_mapping
+binary_sha256=d44ba02343650522f112764435d6e5f398456a22254a7363c691a12597adc10d
+ldd_not_found_count=0
+b1_commit=6d82e211f250a8b97c71eb8112d98e3ec29770ae
+source_clean=true

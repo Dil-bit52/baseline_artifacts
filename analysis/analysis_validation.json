@@ -1,0 +1,14 @@
+{
+  "accepted_run_ids": [
+    "performance_01",
+    "performance_02",
+    "performance_03"
+  ],
+  "formal_run_count": 3,
+  "all_frame_counts_13334": true,
+  "all_trajectories_finite": true,
+  "all_trajectory_timestamps_strict": true,
+  "figure_count": 11,
+  "smoothing_applied": false,
+  "outliers_removed": false
+}

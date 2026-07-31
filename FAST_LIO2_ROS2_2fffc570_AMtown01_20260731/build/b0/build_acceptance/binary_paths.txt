@@ -1,0 +1,1 @@
+/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib/fast_lio/fastlio_mapping

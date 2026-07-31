@@ -1,0 +1,21 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'use_sim_time':
+        Use simulation (Gazebo) clock if true
+        (default: 'false')
+
+    'config_path':
+        Yaml config file path
+        (default: '/data/fastlio_baseline/workspaces/b1/install/fast_lio/share/fast_lio/config')
+
+    'config_file':
+        Config file
+        (default: 'mid360.yaml')
+
+    'rviz':
+        Use RViz to monitor results
+        (default: 'true')
+
+    'rviz_cfg':
+        RViz config file path
+        (default: '/data/fastlio_baseline/workspaces/b1/install/fast_lio/share/fast_lio/rviz/fastlio.rviz')

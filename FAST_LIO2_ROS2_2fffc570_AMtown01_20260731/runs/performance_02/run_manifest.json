@@ -1,0 +1,10 @@
+{
+  "bag_play_exit_code": 0,
+  "config_sha256": "456ffa965daf6b2c0402bf2c8bac3f6e1fdb1167eb3f363a0d8d5a407599b051",
+  "drain_exit_code": 0,
+  "map_save_exit_code": "N/A",
+  "run_id": "performance_02",
+  "trajectory_csv_sha256": "03de218205c4f9dbdcac9de6186e86ac10ec743c3d3e9ce240629ce057727de2",
+  "trajectory_tum_sha256": "86cb7ea7ee55afdffda38dbd4d78d6c553e95883fb3807fc7533bf8300945270",
+  "variant": "b1"
+}

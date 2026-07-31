@@ -1,0 +1,334 @@
+[INFO] [1785481551.146589849] [laser_mapping_b1]: p_pre->lidar_type 1
+Multi thread started 
+~~~~/data/fastlio_baseline/workspaces/b1/src/fast_lio/ file opened
+[INFO] [1785481551.151103783] [laser_mapping_b1]: Node init finished.
+Too few input point cloud!
+Too few input point cloud!
+[WARN] [1785481561.381945097] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+IMU Initial Done
+[WARN] [1785481561.607118669] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481561.784055564] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481561.982558273] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481562.182799349] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481562.407193415] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481562.582116746] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481562.807190856] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481562.982116339] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481563.183273870] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481563.407245810] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481563.607179008] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481563.807194302] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481563.982211556] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481564.207170233] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481564.382224947] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481564.582232852] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481564.782242118] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481564.982243759] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481565.184336222] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481565.407256670] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481565.582291698] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481565.783021342] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481565.982279748] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481566.182288262] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481566.382515995] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481566.582280303] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481566.782338928] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481566.982325512] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481567.182373839] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481567.381113866] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481567.581221224] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481567.781201307] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481567.981226675] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481568.181201868] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481568.381260799] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481568.581301596] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481568.781273881] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481568.981284068] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481569.206318941] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481569.406295501] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481569.606283560] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481569.781283828] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481569.981296248] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481570.206321136] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481570.381338847] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481570.581335755] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481570.781347771] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.006335830] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.181357813] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.381367974] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.581357524] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.781385132] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481571.981393141] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481572.181386645] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481572.406395957] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481572.581448092] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481572.806420352] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481572.981414793] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481573.181430410] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481573.381427460] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481573.581453253] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481573.806471896] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481573.981484182] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481574.181483588] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481574.406521161] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481574.581506450] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481574.781511500] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481574.981504382] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481575.181494678] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481575.383865204] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481575.606574334] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481575.806630717] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481575.981535795] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481576.206615883] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481576.383493700] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481576.581619657] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481576.806585986] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481576.981602293] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481577.181603326] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481577.406606734] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481577.581609277] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481577.806659719] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481577.981634118] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481578.181660685] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481578.406677786] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481578.581726233] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481578.781703056] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481578.981721282] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481579.206721419] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481579.381662652] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481579.581707954] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481579.781744112] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481579.982825910] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481580.206831250] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481580.406792739] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481580.581777400] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481580.781801139] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481580.981785456] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481581.183284790] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481581.381805439] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481581.581799168] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481581.781836205] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481581.984304493] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481582.181886512] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481582.381826904] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481582.581804907] [laser_mapping_b1]: No point, skip this scan!
+
+Too few input point cloud!
+[WARN] [1785481582.781886071] [laser_mapping_b1]: No point, skip this scan!
+
+[INFO] [1785481582.981946966] [laser_mapping_b1]: Initialize the map kdtree
+[INFO] [1785481583.182086531] [laser_mapping_b1]: Initialize the map kdtree
+catch sig %d2
+Rebuild thread terminated normally

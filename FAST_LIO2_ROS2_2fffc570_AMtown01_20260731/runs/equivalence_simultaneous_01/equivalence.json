@@ -1,0 +1,13 @@
+{
+  "b0_message_count": 460,
+  "b0_unmatched_timestamps": 0,
+  "b1_message_count": 460,
+  "b1_unmatched_timestamps": 0,
+  "common_timestamp_count": 460,
+  "equivalent": false,
+  "final_position_difference_m": 3.5109575828520936,
+  "final_rotation_difference_deg": 17.94112068327,
+  "max_position_difference_m": 3.5109575828520936,
+  "max_rotation_difference_deg": 18.913476190981502,
+  "message_count_difference": 0
+}

@@ -1,0 +1,2 @@
+fast_lio -> independent runtime clone of /data/fastlio_baseline/source/b0_vanilla (binary was built before replacement from identical Commit)
+livox_ros_driver2 -> independent clone with official ROS2 generated files

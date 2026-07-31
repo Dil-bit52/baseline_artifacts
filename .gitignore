@@ -1,0 +1,7 @@
+# Raw local-environment evidence must never be published.
+private/
+**/private/
+
+# Local artifact-generation scratch workspace.
+.artifact_tool_work/
+

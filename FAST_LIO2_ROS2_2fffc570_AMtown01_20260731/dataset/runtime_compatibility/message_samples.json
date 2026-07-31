@@ -1,0 +1,115 @@
+{
+  "finite_stamps": true,
+  "imu_stamp_monotonic": true,
+  "imu_stamps_sec": [
+    1658137027.603229,
+    1658137027.6081183,
+    1658137027.6131728,
+    1658137027.6181517,
+    1658137027.623179
+  ],
+  "lidar_samples": [
+    {
+      "fields": [
+        "offset_time",
+        "x",
+        "y",
+        "z",
+        "reflectivity",
+        "tag",
+        "line"
+      ],
+      "frame_id": "livox_frame",
+      "has_offset_time": true,
+      "header_stamp_sec": 1658137027.5248315,
+      "message_type": "livox_ros_driver2/msg/CustomMsg",
+      "offset_time_max": 100074593,
+      "offset_time_min": 0,
+      "point_count": 72000,
+      "point_num_declared": 72000,
+      "stamp_delta_sec": null
+    },
+    {
+      "fields": [
+        "offset_time",
+        "x",
+        "y",
+        "z",
+        "reflectivity",
+        "tag",
+        "line"
+      ],
+      "frame_id": "livox_frame",
+      "has_offset_time": true,
+      "header_stamp_sec": 1658137027.6249104,
+      "message_type": "livox_ros_driver2/msg/CustomMsg",
+      "offset_time_max": 99835073,
+      "offset_time_min": 0,
+      "point_count": 72000,
+      "point_num_declared": 72000,
+      "stamp_delta_sec": 0.10007882118225098
+    },
+    {
+      "fields": [
+        "offset_time",
+        "x",
+        "y",
+        "z",
+        "reflectivity",
+        "tag",
+        "line"
+      ],
+      "frame_id": "livox_frame",
+      "has_offset_time": true,
+      "header_stamp_sec": 1658137027.7247493,
+      "message_type": "livox_ros_driver2/msg/CustomMsg",
+      "offset_time_max": 100073093,
+      "offset_time_min": 0,
+      "point_count": 72000,
+      "point_num_declared": 72000,
+      "stamp_delta_sec": 0.0998389720916748
+    },
+    {
+      "fields": [
+        "offset_time",
+        "x",
+        "y",
+        "z",
+        "reflectivity",
+        "tag",
+        "line"
+      ],
+      "frame_id": "livox_frame",
+      "has_offset_time": true,
+      "header_stamp_sec": 1658137027.824827,
+      "message_type": "livox_ros_driver2/msg/CustomMsg",
+      "offset_time_max": 100067953,
+      "offset_time_min": 0,
+      "point_count": 72000,
+      "point_num_declared": 72000,
+      "stamp_delta_sec": 0.10007762908935547
+    },
+    {
+      "fields": [
+        "offset_time",
+        "x",
+        "y",
+        "z",
+        "reflectivity",
+        "tag",
+        "line"
+      ],
+      "frame_id": "livox_frame",
+      "has_offset_time": true,
+      "header_stamp_sec": 1658137027.9248989,
+      "message_type": "livox_ros_driver2/msg/CustomMsg",
+      "offset_time_max": 99846953,
+      "offset_time_min": 0,
+      "point_count": 72000,
+      "point_num_declared": 72000,
+      "stamp_delta_sec": 0.10007190704345703
+    }
+  ],
+  "lidar_stamp_monotonic": true,
+  "time_ranges_overlap": true
+}

@@ -1,0 +1,10 @@
+{
+  "bag_play_exit_code": 124,
+  "config_sha256": "456ffa965daf6b2c0402bf2c8bac3f6e1fdb1167eb3f363a0d8d5a407599b051",
+  "drain_exit_code": 0,
+  "map_save_exit_code": "N/A",
+  "run_id": "warmup_01",
+  "trajectory_csv_sha256": "d94fcc3a7dc62c6747b466b205196cc7ae5773f979af7c914f5a5bc5bf48a3f5",
+  "trajectory_tum_sha256": "e6c047d1ffb568de205c561b6abff5952961d9f592118abe9ae98ea092d9da7b",
+  "variant": "b1"
+}

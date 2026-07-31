@@ -1,0 +1,2 @@
+bag_play=0
+inspector=0

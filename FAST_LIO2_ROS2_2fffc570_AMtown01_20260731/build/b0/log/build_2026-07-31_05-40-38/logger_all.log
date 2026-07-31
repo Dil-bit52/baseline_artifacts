@@ -1,0 +1,197 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log', 'build', '--base-paths', 'src', '--build-base', 'build', '--install-base', 'install', '--packages-up-to', 'fast_lio', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log', log_level=None, verb_name='build', build_base='/data/fastlio_baseline/workspaces/b0/build', install_base='/data/fastlio_baseline/workspaces/b0/install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['fast_lio'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bf2a55ccdc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bf2a55cc850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bf2a55cc850>>, mixin_verb=('build',))
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.133s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.133s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.133s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.134s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/data/fastlio_baseline/workspaces/b0/src'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/fast_lio) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fast_lio' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble']'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2', 'merge_install': False, 'path': '/data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble']'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.169s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.169s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/fastlio_baseline/workspaces/b0/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DROS_EDITION=ROS2', '-DDISTRO_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/fastlio_baseline/workspaces/b0/install/fast_lio', 'merge_install': False, 'path': '/data/fastlio_baseline/workspaces/b0/src/fast_lio', 'symlink_install': False, 'test_result_base': None}
+[0.169s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2'
+[0.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data/fastlio_baseline/workspaces/b0/src/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2 -- -j20 -l20
+[8.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2 -- -j20 -l20
+[8.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2
+[8.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[8.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data/fastlio_baseline/workspaces/b0/build/livox_ros_driver2
+[8.826s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2' for CMake module files
+[8.826s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2' for CMake config files
+[8.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[8.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib'
+[8.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[8.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[8.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[8.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[8.830s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/bin'
+[8.830s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[8.830s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib/python3.10/site-packages'
+[8.830s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/bin'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[8.832s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[8.832s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[8.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[8.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[8.833s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2' for CMake module files
+[8.833s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2' for CMake config files
+[8.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[8.834s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib'
+[8.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[8.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[8.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/bin'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib/python3.10/site-packages'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/bin'
+[8.835s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[8.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[8.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/data/fastlio_baseline/workspaces/b0/src/fast_lio' with build type 'ament_cmake'
+[8.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/data/fastlio_baseline/workspaces/b0/src/fast_lio'
+[8.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /data/fastlio_baseline/workspaces/b0/src/fast_lio -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/data/fastlio_baseline/workspaces/b0/install/fast_lio
+[11.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /data/fastlio_baseline/workspaces/b0/src/fast_lio -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/data/fastlio_baseline/workspaces/b0/install/fast_lio
+[11.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /data/fastlio_baseline/workspaces/b0/build/fast_lio -- -j20 -l20
+[54.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /data/fastlio_baseline/workspaces/b0/build/fast_lio -- -j20 -l20
+[54.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /data/fastlio_baseline/workspaces/b0/build/fast_lio
+[54.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[54.250s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio' for CMake module files
+[54.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/fastlio_baseline/workspaces/b0/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/data/fastlio_baseline/workspaces/b0/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /data/fastlio_baseline/workspaces/b0/build/fast_lio
+[54.250s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio' for CMake config files
+[54.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[54.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[54.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[54.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[54.252s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib'
+[54.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[54.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[54.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[54.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[54.252s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/bin'
+[54.252s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[54.253s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib/python3.10/site-packages'
+[54.253s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/bin'
+[54.253s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.ps1'
+[54.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.dsv'
+[54.254s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.sh'
+[54.254s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.bash'
+[54.254s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.zsh'
+[54.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/colcon-core/packages/fast_lio)
+[54.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[54.255s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio' for CMake module files
+[54.255s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio' for CMake config files
+[54.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[54.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[54.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[54.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[54.256s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib'
+[54.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[54.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[54.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[54.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[54.257s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/bin'
+[54.257s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[54.257s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/lib/python3.10/site-packages'
+[54.257s] Level 1:colcon.colcon_core.environment:checking '/data/fastlio_baseline/workspaces/b0/install/fast_lio/bin'
+[54.257s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.ps1'
+[54.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.dsv'
+[54.258s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.sh'
+[54.258s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.bash'
+[54.258s] INFO:colcon.colcon_core.shell:Creating package script '/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/fast_lio/package.zsh'
+[54.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/fastlio_baseline/workspaces/b0/install/fast_lio/share/colcon-core/packages/fast_lio)
+[54.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[54.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[54.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[54.259s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[54.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[54.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[54.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[54.263s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[54.265s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[54.265s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[54.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/fastlio_baseline/workspaces/b0/install/local_setup.ps1'
+[54.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/fastlio_baseline/workspaces/b0/install/_local_setup_util_ps1.py'
+[54.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/fastlio_baseline/workspaces/b0/install/setup.ps1'
+[54.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/fastlio_baseline/workspaces/b0/install/local_setup.sh'
+[54.267s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/fastlio_baseline/workspaces/b0/install/_local_setup_util_sh.py'
+[54.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/fastlio_baseline/workspaces/b0/install/setup.sh'
+[54.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/fastlio_baseline/workspaces/b0/install/local_setup.bash'
+[54.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/fastlio_baseline/workspaces/b0/install/setup.bash'
+[54.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/fastlio_baseline/workspaces/b0/install/local_setup.zsh'
+[54.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/fastlio_baseline/workspaces/b0/install/setup.zsh'

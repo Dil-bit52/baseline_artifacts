@@ -1,0 +1,11 @@
+
+Files:             estimated_odometry_0.mcap
+Bag size:          11.7 MiB
+Storage id:        mcap
+Duration:          1333.297275925s
+Start:             Jul 31 2026 06:19:32.465072933 (1785478772.465072933)
+End:               Jul 31 2026 06:41:45.762348858 (1785480105.762348858)
+Messages:          26668
+Topic information: Topic: /Odometry | Type: nav_msgs/msg/Odometry | Count: 13334 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 13334 | Serialization Format: cdr
+

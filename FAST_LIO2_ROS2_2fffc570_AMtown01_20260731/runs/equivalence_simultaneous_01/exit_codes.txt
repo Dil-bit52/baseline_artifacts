@@ -1,0 +1,4 @@
+bag_play=124
+bag_record=0
+b0=0
+b1=0

@@ -1,0 +1,13 @@
+table,metric,run_1,run_2,run_3,mean,sample_std,unit,note
+repeatability,completed,true,true,true,1,0,boolean,three accepted formal runs
+repeatability,peak_rss,673.582,713.328,783.738,723.549,55.785,MiB,raw process samples
+repeatability,final_rss,597.648,618.480,692.438,636.189,49.814,MiB,raw process samples
+repeatability,rss_slope,14.057,14.145,18.509,15.571,2.545,MiB/min,full sequence no cropping
+repeatability,mean_cpu,59.601,60.182,60.352,60.045,0.394,percent,process raw CPU
+repeatability,final_kdtree_points,910202,688749,752045,783665.333,114062.447,points,internal ikd-tree
+repeatability,mean_frame_time,13.907,14.070,14.106,14.028,0.106,ms,no outlier removal
+repeatability,p95_frame_time,17.808,18.091,17.991,17.963,0.143,ms,no outlier removal
+repeatability,max_clock_lag_raw,9.970,9.970,9.975,9.971,0.003,s,includes invalid data tail
+repeatability,drain_time,3.035,3.035,3.035,3.035,0.0004,s,target last usable lidar frame
+repeatability,path_length,4917.501,4916.115,4917.285,4916.967,0.746,m,not localization accuracy
+accuracy,ate_rmse,N/A,N/A,N/A,N/A,N/A,m,no frozen GT/alignment protocol
