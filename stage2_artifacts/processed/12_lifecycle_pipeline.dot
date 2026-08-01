@@ -1,0 +1,17 @@
+digraph lifecycle {
+  graph [rankdir=LR, bgcolor="white", dpi=200, pad="0.5,2.0", nodesep=0.45, ranksep=0.6,
+         label="B2 Passive Voxel Lifecycle Observer · AMtown01 全序列 13,334 帧", labelloc=t,
+         fontsize=28, fontname="Droid Sans Fallback", fontcolor="#0F172A"];
+  node [shape=box, style="rounded,filled", fontname="Droid Sans Fallback", fontsize=18,
+        penwidth=2.2, margin="0.22,0.16", color="#CBD5E1", fontcolor="#0F172A"];
+  edge [color="#64748B", penwidth=2.5, arrowsize=1.0];
+  a [label="世界系注册点云\nfeats_down_world", fillcolor="#E0F2FE", color="#0284C7"];
+  b [label="独立体素索引\ns = 1.0 m", fillcolor="#ECFDF5", color="#059669"];
+  c [label="生命周期更新\n帧/命中/时间段", fillcolor="#FEF3C7", color="#D97706"];
+  d [label="单序列内部\n持久性代理分数", fillcolor="#EDE9FE", color="#7C3AED"];
+  e [label="离线裁剪模拟\n10%–50%", fillcolor="#FEE2E2", color="#DC2626"];
+  a -> b -> c -> d -> e;
+  note [shape=plain, fontsize=14, fontcolor="#475569", label="旁路观测：不反馈滤波器或 ikd-Tree · 最终体素 1,267,103"];
+  {rank=sink; note;}
+  c -> note [style=dashed, arrowhead=none, color="#94A3B8"];
+}

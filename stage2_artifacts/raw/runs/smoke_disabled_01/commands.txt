@@ -1,0 +1,7 @@
+variant=B2 Passive Voxel Lifecycle Observer
+run_id=smoke_disabled_01
+mode=disabled
+ROS_DOMAIN_ID=57
+launch=ros2 launch fast_lio mapping.launch.py config_path:=/workspace/stage2_artifacts/raw/runs/smoke_disabled_01 config_file:=config.yaml use_sim_time:=true rviz:=false
+play=ros2 bag play /data/fastlio_baseline/datasets/AMtown01_driver2 --clock --rate 1.0 --delay 5 --topics /livox/lidar /livox/imu
+record=ros2 bag record --storage mcap -o /workspace/stage2_artifacts/raw/runs/smoke_disabled_01/estimated_odometry /Odometry /tf /tf_static

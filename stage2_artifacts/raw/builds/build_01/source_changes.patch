@@ -1,0 +1,114 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e091f3a..d5c36ee 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -92,7 +92,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
+ )
+ ament_export_dependencies(rosidl_default_runtime)
+ 
+-add_executable(fastlio_mapping src/laserMapping.cpp include/ikd-Tree/ikd_Tree.cpp src/preprocess.cpp)
++add_executable(fastlio_mapping
++  src/laserMapping.cpp
++  src/lifecycle_observer.cpp
++  include/ikd-Tree/ikd_Tree.cpp
++  src/preprocess.cpp
++)
+ target_include_directories(fastlio_mapping PUBLIC
+   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+   $<INSTALL_INTERFACE:include>
+diff --git a/src/laserMapping.cpp b/src/laserMapping.cpp
+index a82721b..222c371 100644
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -41,6 +41,7 @@
+ #include <chrono>
+ #include <cstdlib>
+ #include <iomanip>
++#include <memory>
+ #include <unistd.h>
+ #include <Python.h>
+ #include <so3_math.h>
+@@ -64,6 +65,7 @@
+ #include <livox_ros_driver2/msg/custom_msg.hpp>
+ #include "preprocess.h"
+ #include <ikd-Tree/ikd_Tree.h>
++#include "lifecycle_observer.hpp"
+ 
+ #define INIT_TIME           (0.1)
+ #define LASER_POINT_COV     (0.001)
+@@ -841,6 +843,11 @@ public:
+         this->declare_parameter<bool>("mapping.extrinsic_est_en", true);
+         this->declare_parameter<bool>("pcd_save.pcd_save_en", false);
+         this->declare_parameter<int>("pcd_save.interval", -1);
++        this->declare_parameter<bool>("lifecycle_observer.enabled", false);
++        this->declare_parameter<double>("lifecycle_observer.voxel_size", 0.5);
++        this->declare_parameter<double>("lifecycle_observer.time_bin_sec", 30.0);
++        this->declare_parameter<double>("lifecycle_observer.flush_interval_sec", 60.0);
++        this->declare_parameter<string>("lifecycle_observer.output_directory", "");
+         this->declare_parameter<vector<double>>("mapping.extrinsic_T", vector<double>());
+         this->declare_parameter<vector<double>>("mapping.extrinsic_R", vector<double>());
+ 
+@@ -877,6 +884,12 @@ public:
+         this->get_parameter_or<bool>("mapping.extrinsic_est_en", extrinsic_est_en, true);
+         this->get_parameter_or<bool>("pcd_save.pcd_save_en", pcd_save_en, false);
+         this->get_parameter_or<int>("pcd_save.interval", pcd_save_interval, -1);
++        fast_lio_lifecycle::LifecycleObserverConfig lifecycle_config;
++        this->get_parameter_or<bool>("lifecycle_observer.enabled", lifecycle_config.enabled, false);
++        this->get_parameter_or<double>("lifecycle_observer.voxel_size", lifecycle_config.voxel_size, 0.5);
++        this->get_parameter_or<double>("lifecycle_observer.time_bin_sec", lifecycle_config.time_bin_sec, 30.0);
++        this->get_parameter_or<double>("lifecycle_observer.flush_interval_sec", lifecycle_config.flush_interval_sec, 60.0);
++        this->get_parameter_or<string>("lifecycle_observer.output_directory", lifecycle_config.output_directory, "");
+         this->get_parameter_or<vector<double>>("mapping.extrinsic_T", extrinT, vector<double>());
+         this->get_parameter_or<vector<double>>("mapping.extrinsic_R", extrinR, vector<double>());
+ 
+@@ -969,11 +982,31 @@ public:
+             }
+         }
+ 
++        lifecycle_observer_ = std::make_unique<fast_lio_lifecycle::PassiveVoxelLifecycleObserver>(
++            lifecycle_config);
++        RCLCPP_INFO(
++            this->get_logger(),
++            "Passive lifecycle observer: enabled=%s voxel_size=%.3f m time_bin=%.3f s flush_interval=%.3f s output=%s",
++            lifecycle_config.enabled ? "true" : "false", lifecycle_config.voxel_size,
++            lifecycle_config.time_bin_sec, lifecycle_config.flush_interval_sec,
++            lifecycle_config.output_directory.c_str());
++
+         RCLCPP_INFO(this->get_logger(), "Node init finished.");
+     }
+ 
+     ~LaserMappingNode()
+     {
++        if (lifecycle_observer_)
++        {
++            try
++            {
++                lifecycle_observer_->finalize();
++            }
++            catch (const std::exception &error)
++            {
++                RCLCPP_ERROR(this->get_logger(), "Lifecycle observer finalization failed: %s", error.what());
++            }
++        }
+         if (metrics_stream_.is_open())
+         {
+             metrics_stream_.flush();
+@@ -1134,6 +1167,10 @@ private:
+             map_incremental();
+             t5 = omp_get_wtime();
+             kdtree_size_end = ikdtree.size();
++            if (lifecycle_observer_ && lifecycle_observer_->enabled())
++            {
++                lifecycle_observer_->observe_frame(*feats_down_world, Measures.lidar_beg_time);
++            }
+             write_frame_metrics(t0, t_update_start, t_update_end, t3, t5);
+             
+             /******* Publish points *******/
+@@ -1215,6 +1252,7 @@ private:
+     std::ofstream metrics_stream_;
+     bool metrics_enabled_ = false;
+     uint64_t metrics_frame_index_ = 0;
++    std::unique_ptr<fast_lio_lifecycle::PassiveVoxelLifecycleObserver> lifecycle_observer_;
+ 
+     bool effect_pub_en = false, map_pub_en = false;
+     int effect_feat_num = 0, frame_num = 0;

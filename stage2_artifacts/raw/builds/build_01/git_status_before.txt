@@ -1,0 +1,6 @@
+# branch.oid 6d82e211f250a8b97c71eb8112d98e3ec29770ae
+# branch.head experiment/passive-voxel-lifecycle
+1 .M N... 100644 100644 100644 e091f3a484e2d81a03efbd9e85a6544e015e7a42 e091f3a484e2d81a03efbd9e85a6544e015e7a42 CMakeLists.txt
+1 .M N... 100644 100644 100644 a82721b29c52c261494904e73e23dc0e90d36ad5 a82721b29c52c261494904e73e23dc0e90d36ad5 src/laserMapping.cpp
+? include/lifecycle_observer.hpp
+? src/lifecycle_observer.cpp

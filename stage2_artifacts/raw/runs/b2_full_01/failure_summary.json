@@ -1,0 +1,19 @@
+{
+  "run_id": "b2_full_01",
+  "status": "aborted_and_preserved",
+  "reason": "The 0.5 m prototype checkpoint journal repeatedly rewrote every dirty voxel. By frame 4009 it caused sustained processing lag and excessive checkpoint growth, so the run was stopped before the full bag completed.",
+  "configuration": {
+    "voxel_size_m": 0.5,
+    "time_bin_sec": 30.0,
+    "flush_interval_sec": 60.0,
+    "play_rate": 1.0
+  },
+  "last_completed_lifecycle_frame": 4009,
+  "last_sensor_timestamp": 1658137532.4247706,
+  "tracked_voxels_at_last_frame": 10042683,
+  "peak_process_rss_mib": 2763.527,
+  "checkpoint_bytes_preserved": 1358467191,
+  "final_lifecycle_csv_complete": false,
+  "lifecycle_run_summary_complete": false,
+  "corrective_action": "Use a 1.0 m independent lifecycle voxel and checkpoint only newly created voxels once per interval; keep the frame stream flushed periodically and write all current voxel statistics only during graceful finalization."
+}

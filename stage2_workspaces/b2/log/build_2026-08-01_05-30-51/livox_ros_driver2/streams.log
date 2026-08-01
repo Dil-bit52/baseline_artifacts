@@ -1,0 +1,194 @@
+[0.045s] Invoking command in '/workspace/stage2_workspaces/b2/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/stage2_workspaces/b2/build/livox_ros_driver2 -- -j20 -l20
+[0.334s] [  3%] Built target livox_interfaces2__rs
+[0.339s] [  5%] Built target livox_ros_driver2_node
+[0.367s] [  6%] Built target livox_interfaces2__cpp
+[0.454s] [ 13%] Built target livox_interfaces2__rosidl_generator_c
+[0.527s] [ 20%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.556s] [ 27%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.579s] [ 34%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.625s] [ 41%] Built target livox_interfaces2__rosidl_typesupport_c
+[0.651s] [ 51%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.658s] [ 55%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.704s] [ 55%] Built target livox_interfaces2
+[0.780s] [ 56%] Built target livox_interfaces2__py
+[0.847s] [ 56%] Built target ament_cmake_python_copy_livox_ros_driver2
+[0.890s] [ 62%] Built target livox_interfaces2__rosidl_generator_py
+[0.982s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[0.982s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[0.983s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[0.988s] [100%] Built target livox_ros_driver2
+[1.050s] running egg_info
+[1.052s] writing livox_ros_driver2.egg-info/PKG-INFO
+[1.056s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[1.061s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[1.085s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.114s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.134s] [100%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[1.294s] Invoked command in '/workspace/stage2_workspaces/b2/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/stage2_workspaces/b2/build/livox_ros_driver2 -- -j20 -l20
+[1.313s] Invoking command in '/workspace/stage2_workspaces/b2/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/stage2_workspaces/b2/build/livox_ros_driver2
+[1.321s] -- Install configuration: "Release"
+[1.337s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[1.346s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[1.359s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[1.377s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[1.391s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[1.402s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[1.423s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[1.439s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[1.455s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[1.470s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[1.485s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[1.500s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[1.515s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[1.530s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[1.542s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[1.552s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[1.565s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[1.587s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[1.609s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[1.622s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[1.637s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[1.657s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[1.673s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[1.688s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.712s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[1.735s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[1.748s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[1.763s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[1.785s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[1.802s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[1.819s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[1.836s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[1.851s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.873s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[1.911s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[1.938s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[1.957s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[1.981s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[1.995s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[2.007s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.027s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[2.041s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[2.055s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[2.071s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[2.087s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[2.102s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[2.118s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[2.135s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[2.149s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.159s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.172s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.187s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.208s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.225s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.239s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[2.260s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.287s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[2.313s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[2.335s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[2.361s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[2.396s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[2.454s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[2.480s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[2.514s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[2.561s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[2.593s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[2.611s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[2.625s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[2.654s] -- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.712s] -- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[2.785s] -- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.848s] -- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[2.898s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[2.917s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[2.931s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.945s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.961s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.974s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[2.996s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[3.016s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[3.036s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[3.057s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[3.077s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[3.096s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[3.110s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.123s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[3.137s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[3.259s] Listing '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[3.260s] Listing '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[3.296s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.353s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.411s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.478s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[3.540s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2
+[3.554s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust
+[3.575s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs
+[3.587s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml
+[3.597s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src
+[3.616s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs
+[3.628s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg
+[3.650s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs
+[3.665s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs
+[3.681s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[3.696s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[3.709s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[3.725s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[3.747s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[3.782s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[3.805s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config
+[3.822s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[3.835s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[3.847s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[3.860s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json
+[3.873s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[3.885s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[3.895s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[3.919s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[3.946s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py
+[3.964s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[3.983s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[4.001s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py
+[4.019s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[4.031s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[4.049s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[4.068s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[4.079s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[4.091s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[4.101s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[4.117s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[4.130s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[4.142s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[4.154s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[4.166s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[4.185s] -- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[4.249s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[4.272s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[4.299s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[4.318s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-release.cmake
+[4.345s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[4.362s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.387s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[4.405s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-release.cmake
+[4.432s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[4.451s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-release.cmake
+[4.490s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[4.529s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.554s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.582s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[4.600s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.628s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[4.647s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-release.cmake
+[4.676s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[4.691s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-release.cmake
+[4.703s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[4.715s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.725s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.738s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[4.751s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[4.764s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.776s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.789s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[4.799s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[4.812s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[4.818s] Invoked command in '/workspace/stage2_workspaces/b2/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/stage2_workspaces/b2/build/livox_ros_driver2

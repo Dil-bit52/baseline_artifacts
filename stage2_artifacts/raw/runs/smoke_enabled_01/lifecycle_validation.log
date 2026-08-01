@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "mode": "enabled",
+  "frame_rows": 733,
+  "voxel_rows": 137191,
+  "input_points": 3268966,
+  "total_point_hits": 3268966,
+  "observer_elapsed_ms_mean": 1.4807879045020458,
+  "observer_elapsed_ms_max": 416.395958,
+  "checks": [
+    "required files and columns",
+    "strictly increasing timestamps",
+    "contiguous frame indices",
+    "new/reobserved accounting",
+    "finite numeric fields",
+    "first_seen_time <= last_seen_time",
+    "observed_frames >= active_time_bins",
+    "nonzero voxel count",
+    "summary/CSV cross-checks"
+  ]
+}

@@ -1,0 +1,1497 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-08-01-05-19-23-127430-dc3ae6023b26-3353
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fastlio_mapping-1]: process started with pid [3377]
+[fastlio_mapping-1] [INFO] [1785561563.327395879] [laser_mapping]: p_pre->lidar_type 1
+[fastlio_mapping-1] Multi thread started 
+[fastlio_mapping-1] ~~~~/workspace/stage2_workspaces/b2/src/fast_lio/ file opened
+[fastlio_mapping-1] [INFO] [1785561563.352143122] [laser_mapping]: Passive lifecycle observer: enabled=true voxel_size=0.500 m time_bin=30.000 s flush_interval=60.000 s output=/workspace/stage2_artifacts/raw/runs/b2_full_01/lifecycle
+[fastlio_mapping-1] [INFO] [1785561563.352198428] [laser_mapping]: Node init finished.
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561577.819470088] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] IMU Initial Done
+[fastlio_mapping-1] [WARN] [1785561577.942285200] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.016345123] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.116294297] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.216312277] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.316327853] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.416348822] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.516389503] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.616337581] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.716345544] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.816320686] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561578.941385282] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.016495854] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.116484975] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.216318661] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.316415236] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.416426678] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.516385197] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.616371236] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.716362381] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.816387679] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561579.916409268] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.016373763] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.116409340] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.216400728] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.316424126] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.416497692] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.516433430] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.616425983] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.716446480] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.816434723] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561580.916489634] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.016493116] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.116464360] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.216506603] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.316492377] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.416505742] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.516521339] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.616480274] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.716483512] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.816488896] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561581.916514474] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.016525589] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.116528042] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.216499527] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.316474864] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.416535496] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.516562110] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.616551530] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.716555470] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.816549411] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561582.916573115] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.016566865] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.116568526] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.216529316] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.316569034] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.416578089] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.516597895] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.616587598] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.716581663] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.816638227] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561583.916595117] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.016574942] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.116621954] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.216631332] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.316652761] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.416611145] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.516664945] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.616612523] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.716603509] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.816789569] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561584.916655815] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.016639707] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.116659923] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.216687328] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.316692370] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.416651161] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.516703173] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.616667384] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.716706940] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.816686737] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561585.916681696] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.016697993] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.116734133] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.216710608] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.316726569] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.416715535] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.516711204] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.616718416] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.716755001] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.816752618] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561586.916740358] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.016762109] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.116704173] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.216847948] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.316794722] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.416751540] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.516796154] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.616784471] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.716720254] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.816737480] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561587.916760215] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.016789995] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.119067073] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.216820080] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.316781474] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.416817720] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785561588.516811756] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] [INFO] [1785561588.616884662] [laser_mapping]: Initialize the map kdtree
+[fastlio_mapping-1] [INFO] [1785561588.717029593] [laser_mapping]: Initialize the map kdtree
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] [pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] No Effective Points!
+[fastlio_mapping-1] catch sig %d2

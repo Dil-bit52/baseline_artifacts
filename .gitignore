@@ -5,3 +5,8 @@ private/
 # Local artifact-generation scratch workspace.
 .artifact_tool_work/
 
+# Stage 2 presentation scratch dependencies and nested repository metadata.
+stage2_artifacts/.ppt_work/
+stage2_workspaces/**/.git/
+stage2_workspaces/b2/log/latest
+stage2_workspaces/b2/log/latest_build

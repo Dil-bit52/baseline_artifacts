@@ -1,2 +1,6 @@
 *.pcd filter=lfs diff=lfs merge=lfs -text
 *.bundle filter=lfs diff=lfs merge=lfs -text
+stage2_artifacts/raw/runs/b2_full_01/lifecycle/voxel_lifecycle_checkpoints.csv filter=lfs diff=lfs merge=lfs -text
+stage2_artifacts/processed/voxel_persistence_scores.csv filter=lfs diff=lfs merge=lfs -text
+stage2_artifacts/raw/runs/b2_full_02/lifecycle/voxel_lifecycle_final.csv filter=lfs diff=lfs merge=lfs -text
+stage2_artifacts/raw/runs/b2_full_02/lifecycle/voxel_lifecycle_checkpoints.csv filter=lfs diff=lfs merge=lfs -text

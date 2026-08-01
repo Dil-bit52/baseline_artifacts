@@ -1,0 +1,179 @@
+[0.084s] Invoking command in '/workspace/stage2_workspaces/b2/build/fast_lio': AMENT_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/stage2_workspaces/b2/build/fast_lio -- -j20 -l20
+[0.522s] [  2%] Built target fast_lio__cpp
+[0.535s] Consolidate compiler generated dependencies of target fast_lio__rosidl_generator_c
+[0.539s] [  5%] Built target fast_lio__rs
+[0.718s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_cpp
+[0.741s] [ 13%] Built target fast_lio__rosidl_generator_c
+[0.754s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_cpp
+[0.756s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.814s] [ 21%] Built target fast_lio__rosidl_typesupport_cpp
+[0.860s] [ 37%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.861s] [ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.862s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c
+[0.893s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c
+[0.984s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c
+[0.990s] [ 45%] Built target fast_lio__rosidl_typesupport_c
+[1.004s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_c
+[1.042s] [ 54%] Built target ament_cmake_python_copy_fast_lio
+[1.090s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[1.257s] [ 62%] Built target fast_lio
+[1.493s] [ 64%] Built target fast_lio__py
+[1.601s] running egg_info
+[1.603s] writing fast_lio.egg-info/PKG-INFO
+[1.607s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[1.612s] writing top-level names to fast_lio.egg-info/top_level.txt
+[1.636s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[1.662s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[1.714s] Consolidate compiler generated dependencies of target fast_lio__rosidl_generator_py
+[1.773s] [ 64%] Built target ament_cmake_python_build_fast_lio_egg
+[1.876s] [ 70%] Built target fast_lio__rosidl_generator_py
+[1.958s] Consolidate compiler generated dependencies of target fastlio_mapping
+[2.054s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c__pyext
+[2.056s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext
+[2.077s] Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[2.148s] [ 75%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[2.162s] [ 81%] Built target fast_lio__rosidl_typesupport_c__pyext
+[2.193s] [ 86%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[2.242s] [100%] Built target fastlio_mapping
+[2.420s] Invoked command in '/workspace/stage2_workspaces/b2/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/stage2_workspaces/b2/build/fast_lio -- -j20 -l20
+[2.433s] Invoking command in '/workspace/stage2_workspaces/b2/build/fast_lio': AMENT_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/stage2_workspaces/b2/build/fast_lio
+[2.534s] -- Install configuration: "Release"
+[2.562s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[2.577s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[2.599s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[2.626s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[2.661s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[2.689s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[2.714s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[2.738s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[2.759s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[2.779s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[2.794s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/library_path.sh
+[2.812s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[2.843s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[2.875s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[2.889s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[2.904s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[2.924s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[2.938s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.963s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[2.996s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[3.015s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[3.037s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[3.063s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[3.079s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[3.095s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[3.110s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[3.123s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[3.137s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.146s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[3.159s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[3.175s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[3.193s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[3.216s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.230s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.252s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[3.276s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[3.292s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[3.311s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[3.343s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[3.368s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[3.390s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.423s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[3.484s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[3.524s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio
+[3.547s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg
+[3.575s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[3.611s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[3.638s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[3.673s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[3.728s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[3.769s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[3.788s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[3.803s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[3.831s] -- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.904s] -- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[3.958s] -- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.037s] -- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[4.115s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[4.145s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.169s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.192s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.215s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[4.236s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[4.274s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[4.301s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[4.329s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[4.353s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[4.376s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.397s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[4.423s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[4.731s] Listing '/workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[4.731s] Listing '/workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[4.780s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.868s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.967s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.043s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[5.091s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/rust_packages/fast_lio
+[5.102s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust
+[5.126s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/build.rs
+[5.138s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/Cargo.toml
+[5.150s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src
+[5.177s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/lib.rs
+[5.197s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg
+[5.234s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg/rmw.rs
+[5.258s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg.rs
+[5.282s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[5.306s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[5.341s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/fast_lio/fastlio_mapping
+[5.372s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config
+[5.396s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/avia.yaml
+[5.413s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/horizon.yaml
+[5.432s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/mid360.yaml
+[5.450s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[5.464s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[5.473s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch
+[5.488s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[5.502s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[5.511s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rviz
+[5.525s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[5.543s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[5.562s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[5.573s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[5.586s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[5.596s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/path.sh
+[5.609s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/path.dsv
+[5.621s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.bash
+[5.632s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.sh
+[5.642s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.zsh
+[5.653s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.dsv
+[5.665s] -- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/package.dsv
+[5.713s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[5.750s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[5.777s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[5.815s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[5.840s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.877s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[5.914s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.945s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.985s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[6.012s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[6.042s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[6.061s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[6.088s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[6.106s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.132s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[6.149s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[6.177s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[6.194s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[6.207s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[6.219s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.232s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[6.246s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[6.258s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.272s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.285s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.298s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[6.308s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[6.321s] -- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/package.xml
+[6.334s] Invoked command in '/workspace/stage2_workspaces/b2/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/stage2_workspaces/b2/build/fast_lio
