@@ -1,0 +1,9 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1785560894.301245834] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1785560894.313482854] [rosbag2_recorder]: Listening for topics...
+[INFO] [1785560894.313494081] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1785560894.355281687] [rosbag2_recorder]: Subscribed to topic '/tf'
+[INFO] [1785560894.383030193] [rosbag2_recorder]: Subscribed to topic '/Odometry'
+[INFO] [1785560894.383287491] [rosbag2_recorder]: Recording...
+[INFO] [1785560946.891348048] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1785560946.896045631] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1785560946.896222126] [rosbag2_recorder]: Recording stopped

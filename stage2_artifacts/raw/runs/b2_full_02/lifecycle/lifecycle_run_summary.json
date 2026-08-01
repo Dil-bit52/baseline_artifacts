@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "variant": "B2 Passive Voxel Lifecycle Observer",
+  "status": "finalized",
+  "frame_id": "camera_init",
+  "source_cloud": "feats_down_world after map_incremental",
+  "config": {
+    "enabled": true,
+    "voxel_size": 1.0,
+    "time_bin_sec": 30.0,
+    "flush_interval_sec": 60.0,
+    "output_directory": "/workspace/stage2_artifacts/raw/runs/b2_full_02/lifecycle"
+  },
+  "frames": 13334,
+  "sensor_start_time": 1658137038.6247509,
+  "sensor_end_time": 1658138371.9247339,
+  "sensor_duration_sec": 1333.299983025,
+  "total_input_points": 86057338,
+  "total_finite_points": 86057338,
+  "total_tracked_voxels": 1267103,
+  "checkpoint_rows": 1267103,
+  "invalid_timestamp_frames": 0,
+  "non_monotonic_timestamp_frames": 0,
+  "observer_elapsed_ms": {
+    "mean": 1.554191791,
+    "p95": 1.881055,
+    "max": 295.905073,
+    "sum": 20723.593343
+  },
+  "outputs": {
+    "frame_lifecycle_csv": "frame_lifecycle.csv",
+    "checkpoint_csv": "voxel_lifecycle_checkpoints.csv",
+    "voxel_lifecycle_final_csv": "voxel_lifecycle_final.csv"
+  },
+  "run_metadata": {
+    "run_id": "b2_full_02",
+    "dataset": "AMtown01_driver2",
+    "dataset_path": "/data/fastlio_baseline/datasets/AMtown01_driver2",
+    "dataset_sha256": "6f3c85f54982d88d1dd2707815922e5a77fa7d64a787a608ac43d6a70f819586",
+    "source_git_head": "6d82e211f250a8b97c71eb8112d98e3ec29770ae",
+    "source_git_branch": "experiment/passive-voxel-lifecycle",
+    "source_git_status_porcelain": "M CMakeLists.txt\n M src/laserMapping.cpp\n?? include/lifecycle_observer.hpp\n?? src/lifecycle_observer.cpp",
+    "binary_path": "/workspace/stage2_workspaces/b2/install/fast_lio/lib/fast_lio/fastlio_mapping",
+    "binary_sha256": "4c883c9ff0eff83b5103d95af17de0f4ad59209bc709b06dae58bd9067f3ca67",
+    "build_type": "Release",
+    "ros_distribution": "Humble"
+  }
+}

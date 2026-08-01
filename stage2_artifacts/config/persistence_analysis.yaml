@@ -1,0 +1,17 @@
+persistence_proxy:
+  name: "单序列内部持久性代理分数"
+  n_sat: 50
+  t_sat_sec: 300.0
+  time_bin_sec: 30.0
+  weights:
+    repeated_observation: 0.4
+    lifespan: 0.3
+    temporal_coverage: 0.3
+  grouping:
+    method: "quantiles"
+    low_quantile: 0.30
+    high_quantile: 0.70
+  pruning_fractions: [0.10, 0.20, 0.30, 0.40, 0.50]
+  xy_coverage_grid_m: 2.0
+  spatial_plot_max_points: 200000
+  random_seed: 20260801

@@ -1,0 +1,250 @@
+{
+  "dataset": {
+    "name": "AMtown01_driver2",
+    "sha256": "6f3c85f54982d88d1dd2707815922e5a77fa7d64a787a608ac43d6a70f819586",
+    "ground_truth_frozen": false
+  },
+  "lifecycle": {
+    "frames": 13334,
+    "sensor_duration_sec": 1333.299983025,
+    "total_input_points": 86057338,
+    "total_tracked_voxels": 1267103,
+    "voxel_size_m": 1.0,
+    "time_bin_sec": 30.0,
+    "flush_interval_sec": 60.0
+  },
+  "persistence_proxy": {
+    "name": "单序列内部持久性代理分数",
+    "n_sat": 50.0,
+    "t_sat_sec": 300.0,
+    "time_bin_sec": 30.0,
+    "weights": {
+      "C": 0.4,
+      "L": 0.3,
+      "D": 0.3
+    },
+    "grouping_method": "quantiles",
+    "low_upper": 0.5558470788261285,
+    "medium_upper": 0.719099837589,
+    "score_mean": 0.6178425899873138,
+    "score_median": 0.6622132218848173,
+    "score_p05": 0.3705165737555528,
+    "score_p95": 0.7569333203633333,
+    "groups": {
+      "low": {
+        "group": "low",
+        "voxel_count": 380131,
+        "voxel_share": 0.3000000789201825,
+        "point_hits": 1597413,
+        "point_hit_share": 0.018562193964214883,
+        "score_mean": 0.4492809833572596,
+        "score_median": 0.44653314369610564
+      },
+      "medium": {
+        "group": "medium",
+        "voxel_count": 506841,
+        "voxel_share": 0.399999842159635,
+        "point_hits": 25906867,
+        "point_hit_share": 0.3010419285802217,
+        "score_mean": 0.6550865437759801,
+        "score_median": 0.6622132218848173
+      },
+      "high": {
+        "group": "high",
+        "voxel_count": 380131,
+        "voxel_share": 0.3000000789201825,
+        "point_hits": 58553058,
+        "point_hit_share": 0.6803958774555634,
+        "score_mean": 0.7367456242246884,
+        "score_median": 0.727600007534
+      }
+    }
+  },
+  "pruning": [
+    {
+      "pruning_fraction": 0.1,
+      "original_voxels": 1267103,
+      "retained_voxels": 1140393,
+      "removed_voxels": 126710,
+      "voxel_retention_rate": 0.9000002367605475,
+      "point_hit_retention_rate": 0.9981387525605312,
+      "high_persistence_retention_rate": 1.0,
+      "map_scale_compression_proxy": 0.1,
+      "xy_grid_m": 2.0,
+      "original_xy_cells": 6352,
+      "retained_xy_cells": 5798,
+      "xy_coverage_retention_rate": 0.9127833753148614
+    },
+    {
+      "pruning_fraction": 0.2,
+      "original_voxels": 1267103,
+      "retained_voxels": 1013683,
+      "removed_voxels": 253420,
+      "voxel_retention_rate": 0.8000004735210949,
+      "point_hit_retention_rate": 0.9931423976883877,
+      "high_persistence_retention_rate": 1.0,
+      "map_scale_compression_proxy": 0.2,
+      "xy_grid_m": 2.0,
+      "original_xy_cells": 6352,
+      "retained_xy_cells": 5693,
+      "xy_coverage_retention_rate": 0.8962531486146096
+    },
+    {
+      "pruning_fraction": 0.3,
+      "original_voxels": 1267103,
+      "retained_voxels": 886973,
+      "removed_voxels": 380130,
+      "voxel_retention_rate": 0.7000007102816425,
+      "point_hit_retention_rate": 0.9814379222373808,
+      "high_persistence_retention_rate": 1.0,
+      "map_scale_compression_proxy": 0.3,
+      "xy_grid_m": 2.0,
+      "original_xy_cells": 6352,
+      "retained_xy_cells": 5564,
+      "xy_coverage_retention_rate": 0.8759445843828715
+    },
+    {
+      "pruning_fraction": 0.4,
+      "original_voxels": 1267103,
+      "retained_voxels": 760262,
+      "removed_voxels": 506841,
+      "voxel_retention_rate": 0.600000157840365,
+      "point_hit_retention_rate": 0.9580127263522838,
+      "high_persistence_retention_rate": 1.0,
+      "map_scale_compression_proxy": 0.4,
+      "xy_grid_m": 2.0,
+      "original_xy_cells": 6352,
+      "retained_xy_cells": 5436,
+      "xy_coverage_retention_rate": 0.8557934508816121
+    },
+    {
+      "pruning_fraction": 0.5,
+      "original_voxels": 1267103,
+      "retained_voxels": 633552,
+      "removed_voxels": 633551,
+      "voxel_retention_rate": 0.5000003946009125,
+      "point_hit_retention_rate": 0.9117323963704292,
+      "high_persistence_retention_rate": 1.0,
+      "map_scale_compression_proxy": 0.5,
+      "xy_grid_m": 2.0,
+      "original_xy_cells": 6352,
+      "retained_xy_cells": 5282,
+      "xy_coverage_retention_rate": 0.8315491183879093
+    }
+  ],
+  "equivalence": {
+    "b0_message_count": 63,
+    "b0_unmatched_timestamps": 0,
+    "b1_message_count": 63,
+    "b1_unmatched_timestamps": 0,
+    "common_timestamp_count": 63,
+    "equivalent": true,
+    "final_position_difference_m": 0.0,
+    "final_rotation_difference_deg": 0.0,
+    "max_position_difference_m": 0.0,
+    "max_rotation_difference_deg": 0.0,
+    "message_count_difference": 0
+  },
+  "smoke": {
+    "disabled": {
+      "status": "passed",
+      "mode": "disabled",
+      "generated_lifecycle_files": [],
+      "checks": [
+        "observer disabled",
+        "no lifecycle output files generated"
+      ]
+    },
+    "enabled_final": {
+      "status": "passed",
+      "mode": "enabled",
+      "frame_rows": 733,
+      "voxel_rows": 39806,
+      "input_points": 3267925,
+      "total_point_hits": 3267925,
+      "observer_elapsed_ms_mean": 0.5726742728512957,
+      "observer_elapsed_ms_max": 128.251933,
+      "checks": [
+        "required files and columns",
+        "strictly increasing timestamps",
+        "contiguous frame indices",
+        "new/reobserved accounting",
+        "finite numeric fields",
+        "first_seen_time <= last_seen_time",
+        "observed_frames >= active_time_bins",
+        "nonzero voxel count",
+        "summary/CSV cross-checks"
+      ]
+    }
+  },
+  "performance": {
+    "observer_elapsed_ms": {
+      "mean": 1.554191791,
+      "p95": 1.881055,
+      "max": 295.905073,
+      "sum": 20723.593343
+    },
+    "b2_core": {
+      "frames": 13334,
+      "mean_total_frame_ms": 14.528806605674365,
+      "p95_total_frame_ms": 18.743118499999998,
+      "p99_total_frame_ms": 22.02592171,
+      "max_total_frame_ms": 83.456719
+    },
+    "b2_process": {
+      "samples": 2741,
+      "initial_rss_mib": 154.062,
+      "final_rss_mib": 805.859,
+      "peak_rss_mib": 811.938,
+      "mean_cpu_percent": 63.01977635899306,
+      "peak_cpu_percent": 139.752
+    },
+    "b1_three_run_mean": {
+      "frames": 13334.0,
+      "mean_total_frame_ms": 14.027753395584021,
+      "p95_total_frame_ms": 17.963284266666662,
+      "p99_total_frame_ms": 21.206168333780003,
+      "max_total_frame_ms": 75.63107499966667,
+      "samples": 2728.0,
+      "initial_rss_mib": 142.81266666666667,
+      "final_rss_mib": 636.1886666666668,
+      "peak_rss_mib": 723.5493333333334,
+      "mean_cpu_percent": 60.04462817693059,
+      "peak_cpu_percent": 130.46166666666667
+    },
+    "combined_b2_mean_frame_proxy_ms": 16.082998396674366,
+    "combined_mean_overhead_vs_b1_percent": 14.651276958841763,
+    "peak_rss_difference_vs_b1_mean_mib": 88.38866666666661,
+    "limitations": "B2 has one full run; B1 comparison uses three prior full runs under the same dataset/config class but default multithread scheduling is nondeterministic. The combined frame proxy adds separately timed core and observer means."
+  },
+  "failed_trials": [
+    {
+      "run_id": "b2_full_01",
+      "status": "aborted_and_preserved",
+      "reason": "The 0.5 m prototype checkpoint journal repeatedly rewrote every dirty voxel. By frame 4009 it caused sustained processing lag and excessive checkpoint growth, so the run was stopped before the full bag completed.",
+      "configuration": {
+        "voxel_size_m": 0.5,
+        "time_bin_sec": 30.0,
+        "flush_interval_sec": 60.0,
+        "play_rate": 1.0
+      },
+      "last_completed_lifecycle_frame": 4009,
+      "last_sensor_timestamp": 1658137532.4247706,
+      "tracked_voxels_at_last_frame": 10042683,
+      "peak_process_rss_mib": 2763.527,
+      "checkpoint_bytes_preserved": 1358467191,
+      "final_lifecycle_csv_complete": false,
+      "lifecycle_run_summary_complete": false,
+      "corrective_action": "Use a 1.0 m independent lifecycle voxel and checkpoint only newly created voxels once per interval; keep the frame stream flushed periodically and write all current voxel statistics only during graceful finalization."
+    }
+  ],
+  "artifacts": {
+    "voxel_scores_csv": "/workspace/stage2_artifacts/processed/voxel_persistence_scores.csv",
+    "pruning_csv": "/workspace/stage2_artifacts/processed/pruning_simulation.csv",
+    "sensitivity_csv": "/workspace/stage2_artifacts/processed/persistence_sensitivity.csv",
+    "plots_directory": "D:\\Desktop\\carry_bot_2_ws\\stage2_artifacts\\plots",
+    "pptx": "D:\\Desktop\\carry_bot_2_ws\\outputs\\FAST-LIO2_ROS2_阶段1与阶段2初步汇报.pptx",
+    "ppt_template_fidelity": "passed",
+    "ppt_overflow_check": "passed"
+  }
+}

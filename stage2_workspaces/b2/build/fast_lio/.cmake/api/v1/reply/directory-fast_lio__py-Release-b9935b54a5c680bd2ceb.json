@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fast_lio__py",
+		"source" : "/workspace/stage2_workspaces/b2/build/fast_lio/fast_lio__py"
+	}
+}

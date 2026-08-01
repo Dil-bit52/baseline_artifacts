@@ -1,0 +1,339 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-08-01-05-08-07-535129-dc3ae6023b26-2454
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fastlio_mapping-1]: process started with pid [2470]
+[fastlio_mapping-1] [INFO] [1785560887.825404647] [laser_mapping]: p_pre->lidar_type 1
+[fastlio_mapping-1] Multi thread started 
+[fastlio_mapping-1] ~~~~/workspace/stage2_workspaces/b2/src/fast_lio/ file opened
+[fastlio_mapping-1] [INFO] [1785560887.842004947] [laser_mapping]: Passive lifecycle observer: enabled=false voxel_size=0.500 m time_bin=30.000 s flush_interval=60.000 s output=
+[fastlio_mapping-1] [INFO] [1785560887.842043756] [laser_mapping]: Node init finished.
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560902.439845550] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] IMU Initial Done
+[fastlio_mapping-1] [WARN] [1785560902.540666599] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560902.639762355] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560902.739764131] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560902.839778225] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560902.939763763] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.039788131] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.139843263] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.239820647] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.339808256] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.439806746] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.539800589] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.639871395] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.739841658] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.839761943] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560903.939835774] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.039846778] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.139890300] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.239812029] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.339898194] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.439826298] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.538867549] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.638857598] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.738877711] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.838879367] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560904.938869187] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.038916545] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.138914355] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.238915933] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.338948239] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.438892258] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.538939492] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.638980924] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.738930496] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.838896168] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560905.938954187] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.039005111] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.138915822] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.238969936] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.338956493] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.438968329] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.538986862] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.638992321] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.738951712] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.838934966] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560906.938973480] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.039002845] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.139009634] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.238999249] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.338979390] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.439009140] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.539024717] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.638996683] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.739004805] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.839034674] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560907.939048476] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.039054475] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.139001965] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.239044872] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.339071216] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.439069837] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.539075028] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.639067882] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.739070801] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.839071715] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560908.939113816] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.039143829] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.139071002] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.239096809] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.339092468] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.439082969] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.539103562] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.639101328] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.739079994] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.839085860] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560909.939153568] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.039103418] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.139143805] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.239173910] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.339158450] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.439140109] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.539198825] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.639148077] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.739162444] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.839190010] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560910.939192616] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.039219007] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.139208321] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.239229130] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.339217320] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.439190061] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.539194302] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.639207972] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.739187946] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.839290414] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560911.939257457] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.039211952] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.139284722] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.239230677] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.339291216] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.439263396] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.539249223] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.639182824] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.739281220] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.839300753] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560912.939259032] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560913.039279081] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] Too few input point cloud!
+[fastlio_mapping-1] [WARN] [1785560913.139291072] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] [INFO] [1785560913.240941542] [laser_mapping]: Initialize the map kdtree
+[fastlio_mapping-1] [INFO] [1785560913.339496789] [laser_mapping]: Initialize the map kdtree
+[fastlio_mapping-1] catch sig %d2
+[fastlio_mapping-1] Rebuild thread terminated normally
+[INFO] [fastlio_mapping-1]: process has finished cleanly [pid 2470]

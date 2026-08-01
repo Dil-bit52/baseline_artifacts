@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/workspace/stage2_workspaces/b2/src/fast_lio:msg/Pose6D.msg"
+  ]
+}

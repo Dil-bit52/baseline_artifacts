@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000392] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2')])}
+[0.000558] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.019268] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.037275] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.041430] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/stage2_workspaces/b2/build/livox_ros_driver2', '--', '-j20', '-l20'], 'cwd': '/workspace/stage2_workspaces/b2/build/livox_ros_driver2', 'env': OrderedDict([('HOSTNAME', 'dc3ae6023b26'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/stage2_workspaces/b2/build/livox_ros_driver2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098936] (-) TimerEvent: {}
+[0.199282] (-) TimerEvent: {}
+[0.299619] (-) TimerEvent: {}
+[0.315595] (livox_ros_driver2) StdoutLine: {'line': b'[  3%] Built target livox_ros_driver2_node\n'}
+[0.322656] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] Built target livox_interfaces2__rs\n'}
+[0.347964] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target livox_interfaces2__cpp\n'}
+[0.399757] (-) TimerEvent: {}
+[0.446466] (livox_ros_driver2) StdoutLine: {'line': b'[ 13%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.499986] (-) TimerEvent: {}
+[0.509641] (livox_ros_driver2) StdoutLine: {'line': b'[ 20%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.545566] (livox_ros_driver2) StdoutLine: {'line': b'[ 27%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.565470] (livox_ros_driver2) StdoutLine: {'line': b'[ 34%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.600107] (-) TimerEvent: {}
+[0.620036] (livox_ros_driver2) StdoutLine: {'line': b'[ 41%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.646950] (livox_ros_driver2) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.654260] (livox_ros_driver2) StdoutLine: {'line': b'[ 55%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.700254] (-) TimerEvent: {}
+[0.708807] (livox_ros_driver2) StdoutLine: {'line': b'[ 55%] Built target livox_interfaces2\n'}
+[0.788975] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__py\n'}
+[0.800367] (-) TimerEvent: {}
+[0.858127] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[0.897233] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.900450] (-) TimerEvent: {}
+[0.977185] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] Built target livox_ros_driver2\n'}
+[0.984689] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.985310] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.985865] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.000553] (-) TimerEvent: {}
+[1.051096] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[1.053193] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[1.055908] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[1.060271] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[1.083774] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.100659] (-) TimerEvent: {}
+[1.114698] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.135875] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[1.200769] (-) TimerEvent: {}
+[1.301139] (-) TimerEvent: {}
+[1.315295] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[1.326534] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[1.334673] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/stage2_workspaces/b2/build/livox_ros_driver2'], 'cwd': '/workspace/stage2_workspaces/b2/build/livox_ros_driver2', 'env': OrderedDict([('HOSTNAME', 'dc3ae6023b26'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/stage2_workspaces/b2/build/livox_ros_driver2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.342248] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.357306] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[1.365430] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[1.377214] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[1.392497] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[1.401260] (-) TimerEvent: {}
+[1.408534] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[1.421003] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[1.455125] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[1.480041] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[1.501408] (-) TimerEvent: {}
+[1.504249] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[1.527468] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[1.551020] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[1.573992] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[1.597683] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[1.601482] (-) TimerEvent: {}
+[1.618240] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[1.636792] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.647534] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[1.661192] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[1.690051] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[1.701612] (-) TimerEvent: {}
+[1.726194] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[1.746909] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[1.770653] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[1.801736] (-) TimerEvent: {}
+[1.802445] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[1.825534] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[1.846730] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.873928] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[1.901845] (-) TimerEvent: {}
+[1.904174] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[1.916883] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[1.932748] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[1.953702] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[1.969689] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[1.985314] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[2.001132] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[2.001924] (-) TimerEvent: {}
+[2.014937] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.035278] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[2.067660] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[2.089644] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[2.101569] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[2.102041] (-) TimerEvent: {}
+[2.117170] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[2.130634] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[2.141961] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[2.160760] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[2.175383] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[2.191562] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[2.202173] (-) TimerEvent: {}
+[2.210819] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[2.229971] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[2.254334] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[2.278545] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[2.298634] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[2.302262] (-) TimerEvent: {}
+[2.313549] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.322931] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[2.335516] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[2.351870] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[2.375433] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.395716] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.402368] (-) TimerEvent: {}
+[2.413054] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[2.441224] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.469422] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.493333] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[2.502474] (-) TimerEvent: {}
+[2.506848] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[2.520154] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[2.538638] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.553208] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[2.569863] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.586062] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[2.602583] (-) TimerEvent: {}
+[2.612284] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[2.667407] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[2.702699] (-) TimerEvent: {}
+[2.708534] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[2.722893] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[2.733057] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info\n'}
+[2.751187] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.802812] (-) TimerEvent: {}
+[2.806426] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.882678] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.902925] (-) TimerEvent: {}
+[2.965346] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.003037] (-) TimerEvent: {}
+[3.038750] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2\n'}
+[3.064584] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[3.078807] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.090468] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.103138] (-) TimerEvent: {}
+[3.103293] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.113422] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg\n'}
+[3.130714] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[3.144095] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[3.158936] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[3.175246] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[3.190092] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[3.203380] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[3.203810] (-) TimerEvent: {}
+[3.217051] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.229499] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.243556] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[3.303925] (-) TimerEvent: {}
+[3.359197] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[3.359709] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[3.393716] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.404037] (-) TimerEvent: {}
+[3.448795] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.504158] (-) TimerEvent: {}
+[3.506066] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.596614] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[3.604256] (-) TimerEvent: {}
+[3.647270] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2\n'}
+[3.661135] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust\n'}
+[3.682912] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs\n'}
+[3.700034] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml\n'}
+[3.704348] (-) TimerEvent: {}
+[3.715162] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src\n'}
+[3.739829] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs\n'}
+[3.753283] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg\n'}
+[3.775506] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs\n'}
+[3.790778] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs\n'}
+[3.804449] (-) TimerEvent: {}
+[3.805883] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[3.820776] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[3.838191] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[3.854353] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[3.877696] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[3.904559] (-) TimerEvent: {}
+[3.914025] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[3.937347] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[3.953394] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[3.966488] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[3.979703] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[3.993003] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json\n'}
+[4.004663] (-) TimerEvent: {}
+[4.004944] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[4.017810] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[4.027814] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[4.044237] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[4.059456] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py\n'}
+[4.077861] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[4.097429] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[4.104774] (-) TimerEvent: {}
+[4.116152] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py\n'}
+[4.136036] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[4.154952] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[4.183543] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[4.204894] (-) TimerEvent: {}
+[4.212545] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[4.227838] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[4.246071] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[4.258459] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[4.278311] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[4.295614] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[4.305003] (-) TimerEvent: {}
+[4.311079] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[4.328099] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[4.346691] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[4.364424] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[4.405128] (-) TimerEvent: {}
+[4.430553] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[4.458977] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[4.500304] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[4.505232] (-) TimerEvent: {}
+[4.524820] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-release.cmake\n'}
+[4.555605] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.572359] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[4.595478] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.605330] (-) TimerEvent: {}
+[4.610885] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[4.634611] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[4.649637] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-release.cmake\n'}
+[4.673288] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[4.701642] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.705429] (-) TimerEvent: {}
+[4.722784] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[4.754747] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.775533] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[4.805546] (-) TimerEvent: {}
+[4.808883] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[4.837194] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-release.cmake\n'}
+[4.879417] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[4.905660] (-) TimerEvent: {}
+[4.907029] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-release.cmake\n'}
+[4.926421] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[4.946613] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.967191] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.986692] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.005769] (-) TimerEvent: {}
+[5.006227] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.026090] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.046170] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.066120] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[5.082454] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[5.103733] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[5.105850] (-) TimerEvent: {}
+[5.112544] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[5.205962] (-) TimerEvent: {}
+[5.306233] (-) TimerEvent: {}
+[5.406536] (-) TimerEvent: {}
+[5.506854] (-) TimerEvent: {}
+[5.607134] (-) TimerEvent: {}
+[5.707418] (-) TimerEvent: {}
+[5.807724] (-) TimerEvent: {}
+[5.907993] (-) TimerEvent: {}
+[6.008247] (-) TimerEvent: {}
+[6.100917] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[6.107736] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[6.108321] (-) TimerEvent: {}
+[6.170691] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[6.182674] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[6.185057] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/stage2_workspaces/b2/build/fast_lio', '--', '-j20', '-l20'], 'cwd': '/workspace/stage2_workspaces/b2/build/fast_lio', 'env': OrderedDict([('HOSTNAME', 'dc3ae6023b26'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble'), ('PWD', '/workspace/stage2_workspaces/b2/build/fast_lio'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[6.208428] (-) TimerEvent: {}
+[6.308675] (-) TimerEvent: {}
+[6.408962] (-) TimerEvent: {}
+[6.509214] (-) TimerEvent: {}
+[6.609519] (-) TimerEvent: {}
+[6.629184] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__cpp\n'}
+[6.641530] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_generator_c\n'}
+[6.646208] (fast_lio) StdoutLine: {'line': b'[  5%] Built target fast_lio__rs\n'}
+[6.709627] (-) TimerEvent: {}
+[6.809989] (-) TimerEvent: {}
+[6.825311] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_cpp\n'}
+[6.848181] (fast_lio) StdoutLine: {'line': b'[ 13%] Built target fast_lio__rosidl_generator_c\n'}
+[6.861009] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[6.862752] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[6.910107] (-) TimerEvent: {}
+[6.920721] (fast_lio) StdoutLine: {'line': b'[ 21%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[6.966565] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[6.968319] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[6.969516] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c\n'}
+[7.000072] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c\n'}
+[7.010232] (-) TimerEvent: {}
+[7.090889] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[7.097696] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_c\n'}
+[7.110352] (-) TimerEvent: {}
+[7.111504] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[7.149416] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target ament_cmake_python_copy_fast_lio\n'}
+[7.197475] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[7.210454] (-) TimerEvent: {}
+[7.310722] (-) TimerEvent: {}
+[7.363962] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[7.410835] (-) TimerEvent: {}
+[7.511108] (-) TimerEvent: {}
+[7.600889] (fast_lio) StdoutLine: {'line': b'[ 64%] Built target fast_lio__py\n'}
+[7.611208] (-) TimerEvent: {}
+[7.708961] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[7.710919] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[7.711555] (-) TimerEvent: {}
+[7.714653] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[7.719768] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[7.743079] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[7.769355] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[7.811673] (-) TimerEvent: {}
+[7.820993] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_generator_py\n'}
+[7.879921] (fast_lio) StdoutLine: {'line': b'[ 64%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[7.911782] (-) TimerEvent: {}
+[7.983546] (fast_lio) StdoutLine: {'line': b'[ 70%] Built target fast_lio__rosidl_generator_py\n'}
+[8.011888] (-) TimerEvent: {}
+[8.065310] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fastlio_mapping\n'}
+[8.111994] (-) TimerEvent: {}
+[8.161208] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c__pyext\n'}
+[8.163656] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[8.184283] (fast_lio) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.212104] (-) TimerEvent: {}
+[8.255799] (fast_lio) StdoutLine: {'line': b'[ 75%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[8.269727] (fast_lio) StdoutLine: {'line': b'[ 81%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[8.300614] (fast_lio) StdoutLine: {'line': b'[ 86%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.312221] (-) TimerEvent: {}
+[8.349782] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[8.412330] (-) TimerEvent: {}
+[8.512634] (-) TimerEvent: {}
+[8.527795] (fast_lio) CommandEnded: {'returncode': 0}
+[8.537044] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[8.539895] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/stage2_workspaces/b2/build/fast_lio'], 'cwd': '/workspace/stage2_workspaces/b2/build/fast_lio', 'env': OrderedDict([('HOSTNAME', 'dc3ae6023b26'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble'), ('PWD', '/workspace/stage2_workspaces/b2/build/fast_lio'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/stage2_workspaces/b2/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[8.612743] (-) TimerEvent: {}
+[8.641207] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[8.669124] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[8.684099] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[8.706505] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[8.712852] (-) TimerEvent: {}
+[8.733275] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[8.768722] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c\n'}
+[8.796213] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[8.812982] (-) TimerEvent: {}
+[8.821256] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[8.845247] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[8.866480] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[8.886287] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.901518] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[8.913080] (-) TimerEvent: {}
+[8.919607] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[8.950965] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[8.982541] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[8.996208] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[9.011249] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[9.013176] (-) TimerEvent: {}
+[9.031330] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[9.045706] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.069980] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[9.103950] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[9.113283] (-) TimerEvent: {}
+[9.122260] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[9.144554] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[9.170257] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[9.186745] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[9.202770] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[9.213384] (-) TimerEvent: {}
+[9.217619] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[9.230905] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[9.244837] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.253999] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[9.266783] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[9.282137] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[9.300536] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps\n'}
+[9.313492] (-) TimerEvent: {}
+[9.323713] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.337659] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.359558] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.384050] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[9.399570] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[9.413596] (-) TimerEvent: {}
+[9.418024] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[9.450172] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[9.475274] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[9.497318] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.513709] (-) TimerEvent: {}
+[9.530358] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[9.591610] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[9.613821] (-) TimerEvent: {}
+[9.631013] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[9.654519] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[9.682703] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[9.713931] (-) TimerEvent: {}
+[9.718281] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.745052] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp\n'}
+[9.780670] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[9.814042] (-) TimerEvent: {}
+[9.835561] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[9.875988] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[9.895042] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[9.910551] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info\n'}
+[9.914125] (-) TimerEvent: {}
+[9.938551] (fast_lio) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.011084] (fast_lio) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.014230] (-) TimerEvent: {}
+[10.065823] (fast_lio) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.114363] (-) TimerEvent: {}
+[10.144204] (fast_lio) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.214475] (-) TimerEvent: {}
+[10.222629] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio\n'}
+[10.252265] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.276018] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.299388] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.314596] (-) TimerEvent: {}
+[10.322586] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[10.343141] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg\n'}
+[10.381084] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[10.408902] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[10.414701] (-) TimerEvent: {}
+[10.436488] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[10.460531] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[10.483915] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.504871] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.514826] (-) TimerEvent: {}
+[10.530874] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[10.614928] (-) TimerEvent: {}
+[10.715231] (-) TimerEvent: {}
+[10.815527] (-) TimerEvent: {}
+[10.838471] (fast_lio) StdoutLine: {'line': b"Listing '/workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[10.838915] (fast_lio) StdoutLine: {'line': b"Listing '/workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[10.886760] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.915633] (-) TimerEvent: {}
+[10.975371] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.015740] (-) TimerEvent: {}
+[11.074677] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.115882] (-) TimerEvent: {}
+[11.150798] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[11.198682] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/rust_packages/fast_lio\n'}
+[11.209845] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust\n'}
+[11.215970] (-) TimerEvent: {}
+[11.233426] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/build.rs\n'}
+[11.245903] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/Cargo.toml\n'}
+[11.257278] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src\n'}
+[11.284819] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/lib.rs\n'}
+[11.304038] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg\n'}
+[11.316080] (-) TimerEvent: {}
+[11.340919] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg/rmw.rs\n'}
+[11.365821] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rust/src/msg.rs\n'}
+[11.389451] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[11.413225] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[11.416111] (-) TimerEvent: {}
+[11.448232] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[11.479219] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config\n'}
+[11.503009] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[11.516220] (-) TimerEvent: {}
+[11.520818] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[11.539348] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[11.557224] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[11.571079] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[11.580080] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch\n'}
+[11.595721] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[11.609881] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[11.616316] (-) TimerEvent: {}
+[11.618345] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rviz\n'}
+[11.632925] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[11.650415] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[11.669847] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[11.680214] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[11.693441] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[11.703350] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[11.716250] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[11.716697] (-) TimerEvent: {}
+[11.728495] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[11.739193] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[11.749518] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[11.760832] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[11.772088] (fast_lio) StdoutLine: {'line': b'-- Installing: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/package.dsv\n'}
+[11.816834] (-) TimerEvent: {}
+[11.820946] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[11.857727] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[11.884870] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[11.916951] (-) TimerEvent: {}
+[11.922156] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.947908] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[11.984445] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[12.017071] (-) TimerEvent: {}
+[12.021753] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.051902] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[12.092553] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.117184] (-) TimerEvent: {}
+[12.119050] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[12.149773] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[12.168938] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[12.195699] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.213506] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[12.217269] (-) TimerEvent: {}
+[12.239168] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[12.256248] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[12.284354] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[12.301510] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[12.314595] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[12.317365] (-) TimerEvent: {}
+[12.326517] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.340022] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.353630] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.365755] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.379504] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.392971] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.405349] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[12.415586] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[12.417453] (-) TimerEvent: {}
+[12.428470] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /workspace/stage2_workspaces/b2/install/fast_lio/share/fast_lio/package.xml\n'}
+[12.441642] (fast_lio) CommandEnded: {'returncode': 0}
+[12.517558] (-) TimerEvent: {}
+[12.617790] (-) TimerEvent: {}
+[12.718062] (-) TimerEvent: {}
+[12.818362] (-) TimerEvent: {}
+[12.918612] (-) TimerEvent: {}
+[13.018834] (-) TimerEvent: {}
+[13.119055] (-) TimerEvent: {}
+[13.138283] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[13.144181] (-) EventReactorShutdown: {}

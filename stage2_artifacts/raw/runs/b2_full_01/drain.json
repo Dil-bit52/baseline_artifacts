@@ -1,0 +1,18 @@
+{
+  "drain_time_sec": 120.47079236900026,
+  "final_latency_row": {
+    "clock_lag_sec": "2.3749136924743652",
+    "elapsed_sec": "515.558227",
+    "latest_clock_stamp": "1658137534.8995974",
+    "latest_lidar_stamp": "1658137534.4247646",
+    "latest_odom_stamp": "1658137532.5246837",
+    "lidar_message_count": "3013",
+    "odom_message_count": "2710",
+    "sensor_backlog_sec": "1.900080919265747",
+    "timestamp_monotonic": "2742.945614239",
+    "timestamp_utc": "2026-08-01T05:28:05.173583+00:00"
+  },
+  "reason": "timeout",
+  "success": false,
+  "target_odom_stamp": 1658138371.9247339
+}

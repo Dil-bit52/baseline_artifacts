@@ -1,0 +1,11 @@
+{
+  "voxel_count": 1267103,
+  "score_mean": 0.6178425899873138,
+  "groups": {
+    "low": 380131,
+    "medium": 506841,
+    "high": 380131
+  },
+  "b2_peak_rss_mib": 811.938,
+  "combined_overhead_percent": 14.651276958841763
+}

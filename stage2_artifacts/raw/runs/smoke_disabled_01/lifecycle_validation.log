@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "mode": "disabled",
+  "generated_lifecycle_files": [],
+  "checks": [
+    "observer disabled",
+    "no lifecycle output files generated"
+  ]
+}

@@ -1,0 +1,3 @@
+B1: OMP_THREAD_LIMIT=1 /data/fastlio_baseline/workspaces/b1/install/fast_lio/lib/fast_lio/fastlio_mapping --ros-args --params-file /workspace/stage2_artifacts/raw/runs/equivalence_b1_b2_01/b1_config.yaml -p use_sim_time:=true -r __node:=laser_mapping_b1 -r /Odometry:=/b1/Odometry
+B2: OMP_THREAD_LIMIT=1 /workspace/stage2_workspaces/b2/install/fast_lio/lib/fast_lio/fastlio_mapping --ros-args --params-file /workspace/stage2_artifacts/raw/runs/equivalence_b1_b2_01/b2_config.yaml -p use_sim_time:=true -r __node:=laser_mapping_b2 -r /Odometry:=/b2/Odometry
+PLAY: ros2 bag play /data/fastlio_baseline/datasets/AMtown01_driver2 --clock --rate 0.1 --delay 5 --topics /livox/lidar /livox/imu (180 wall seconds)

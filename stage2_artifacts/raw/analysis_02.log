@@ -1,0 +1,189 @@
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 108 (l) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 112 (p) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 48 (0) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 50 (2) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 53 (5) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 55 (7) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 49 (1) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 46 (.) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 52 (4) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 54 (6) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 56 (8) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 98 (b) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 95 (_) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 102 (f) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 117 (u) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 47 (/) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 118 (v) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 111 (o) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 120 (x) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 101 (e) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 105 (i) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 99 (c) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 121 (y) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 110 (n) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 97 (a) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 115 (s) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 183 (\N{MIDDLE DOT}) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 78 (N) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 61 (=) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 44 (,) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 51 (3) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 37 (%) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 57 (9) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 40 (() missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 41 ()) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 88 (X) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 89 (Y) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 109 (m) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 114 (r) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 100 (d) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 103 (g) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 116 (t) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 45 (-) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 119 (w) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 104 (h) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '3' [U+33], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '3' [U+33], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '4' [U+34], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '4' [U+34], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '5' [U+35], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '5' [U+35], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '3' [U+33], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '3' [U+33], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '4' [U+34], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '4' [U+34], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '5' [U+35], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '5' [U+35], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 66 (B) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 80 (P) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 43 (+) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 82 (R) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 83 (S) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 77 (M) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+/workspace/stage2_artifacts/scripts/analyze_stage2.py:76: UserWarning: Glyph 8211 (\N{EN DASH}) missing from current font.
+  fig.savefig(path, dpi=200, facecolor="white", bbox_inches="tight")
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '1' [U+31], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '0' [U+30], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+Font 'default' does not have a glyph for 'x' [U+78], substituting with a dummy symbol.
+Font 'default' does not have a glyph for '2' [U+32], substituting with a dummy symbol.
+{
+  "voxel_count": 1267103,
+  "score_mean": 0.6178425899873138,
+  "groups": {
+    "low": 380131,
+    "medium": 506841,
+    "high": 380131
+  },
+  "b2_peak_rss_mib": 811.938,
+  "combined_overhead_percent": 14.651276958841763
+}
